@@ -1,0 +1,916 @@
+This file contains the sets required for constructing the benchmark presented in the paper "A production planning benchmark for real-world refinery-petrochemical complexes" by W. Du, C. Wang, C. Fan, Z. Li, Y. Zhong, T. Kang, Z. Liang, M. Yang, F. Qian, and X. Dai.
+
+Sets
+S   set of streams
+/
+s0, s1, s2, s3, s4, s5, s6, s7, s8, s9
+s10, s11, s12, s13, s14, s15, s16, s17, s18, s19
+s20, s21, s22, s23, s24, s25, s26, s27, s28, s29
+s30, s31, s32, s33, s34, s35, s36, s37, s38, s39
+s40, s41, s42, s43, s44, s45, s46, s47, s48, s49
+s50, s51, s52, s53, s54, s55, s56, s57, s58, s59
+s60, s61, s62, s63, s64, s65, s66, s67, s68, s69
+s70, s71, s72, s73, s74, s75, s76, s77, s78, s79
+s80, s81, s82, s83, s84, s85, s86, s87, s88, s89
+s90, s91, s92, s93, s94, s95, s96, s97, s98, s99
+s100, s101, s102, s103, s104, s105, s106, s107, s108, s109
+s110, s111, s112, s113, s114, s115, s116, s117, s118, s119
+s120, s121, s122, s123, s124, s125, s126, s127, s128, s129
+s130, s131, s132, s133, s134, s135, s136, s137, s138, s139
+s140, s141, s142, s143, s144, s145, s146, s147, s148, s149
+s150, s151, s152, s153, s154, s155, s156, s157, s158, s159
+s160, s161, s162, s163, s164, s165, s166, s167, s168, s169
+s170, s171, s172, s173, s174, s175, s176, s177, s178, s179
+s180, s181, s182, s183, s184, s185, s186, s187, s188, s189
+s190, s191, s192, s193, s194, s195, s196, s197, s198, s199
+s200, s201, s202, s203, s204, s205, s206, s207, s208, s209
+s210, s211, s212, s213, s214, s215, s216, s217, s218, s219
+s220, s221, s222, s223, s224, s225, s226, s227, s228, s229
+s230, s231, s232, s233, s234, s235, s236, s237, s238, s239
+s240, s241, s242, s243, s244, s245, s246, s247, s248, s249
+s250, s251, s252, s253, s254, s255, s256, s257, s258, s259
+s260, s261, s262, s263, s264, s265, s266, s267, s268, s269
+s270, s271, s272, s273, s274, s275, s276, s277, s278, s279
+s280, s281, s282, s283, s284, s285, s286, s287, s288, s289
+s290, s291, s292, s293, s294, s295, s296, s297, s298, s299
+s300, s301, s302, s303, s304, s305, s306, s307, s308, s309
+s310, s311, s312, s313, s314, s315, s316, s317, s318, s319
+s320, s321, s322, s323, s324, s325, s326, s327, s328, s329
+s330, s331, s332, s333, s334, s335, s336, s337, s338, s339
+s340, s341, s342, s343, s344, s345, s346, s347, s348, s349
+s350, s351, s352, s353, s354, s355, s356, s357, s358, s359
+s360, s361, s362, s363
+/
+U   set of unit operations
+/
+UCDU0, UCDU1, Upf0, Upf1, Upf2, Upf3, Upf4, Upf5, Upf6, Upf7
+Upf8, Upf9, Upf10, Upf11, Upf12, Upf13, Upf14, Upf15, Upf16, Upf17
+Upf18, Upf19, Upd0, Upd1, Upd2, Upd3, Upd4, Umix0, Umix1, Umix2
+Umix3, Umix4, Umix5, Umix6, Umix7, Umix8, Umix9, Umix10, Umix11, Umix12
+Umix13, Umix14, Umix15, Umix16, Umix17, Umix18, Umix19, Umix20, Umix21, Umix22
+Umix23, Umix24, Umix25, Umix26, Umix27, Umix28, Umix29, Umix30, Umix31, Usplit0
+Usplit1, Usplit2, Usplit3, Usplit4, Usplit5, Usplit6, Usplit7, Usplit8, Usplit9, Usplit10
+Usplit11, Usplit12, Usplit13, Usplit14, Usplit15, Usplit16, Usplit17, Usplit18, Usplit19, Usplit20
+Usplit21, Usplit22, Usplit23, Usplit24, Usplit25, Usplit26, Usplit27, Usplit28, Usplit29, Usplit30
+Usplit31, Usplit32, Usplit33, Usplit34, Usplit35, Usplit36, Usplit37, Usplit38, Usplit39, Usplit40
+Usplit41, Usplit42, Usplit43, Usplit44, Usplit45, Usplit46, Usplit47, Usplit48, Usplit49, Usplit50
+Usplit51, Usplit52, Usplit53, Usplit54, Usplit55, Usplit56, Usplit57, Usplit58, Usplit59, Usplit60
+Ublend0, Ublend1, Ublend2, Ublend3, Ublend4, Ublend5, Ublend6, Ublend7, Ublend8, Ublend9
+Ublend10, Ublend11
+/
+M   set of batches
+/
+m0, m1, m2, m3, m4, m5, m6, m7, m8, m9
+m10, m11, m12, m13, m14, m15, m16, m17, m18, m19
+m20, m21, m22, m23, m24, m25, m26, m27, m28, m29
+m30, m31, m32, m33, m34, m35, m36, m37, m38, m39
+m40, m41, m42, m43, m44, m45, m46, m47, m48, m49
+m50, m51, m52, m53, m54, m55, m56, m57, m58, m59
+m60, m61, m62, m63, m64, m65, m66, m67, m68, m69
+m70, m71, m72, m73, m74, m75, m76, m77, m78, m79
+m80, m81, m82, m83, m84, m85, m86, m87, m88, m89
+m90, m91, m92, m93, m94, m95, m96, m97, m98, m99
+m100, m101, m102, m103, m104, m105, m106, m107, m108, m109
+m110, m111, m112, m113, m114, m115, m116, m117, m118, m119
+m120, m121, m122, m123, m124, m125, m126, m127, m128, m129
+m130, m131, m132, m133, m134, m135, m136, m137, m138, m139
+m140, m141, m142, m143, m144, m145, m146, m147, m148, m149
+m150, m151, m152, m153, m154, m155, m156, m157, m158, m159
+m160, m161, m162, m163, m164, m165, m166, m167, m168, m169
+m170, m171, m172, m173, m174, m175, m176, m177, m178, m179
+m180, m181, m182, m183, m184, m185, m186, m187, m188, m189
+m190, m191, m192, m193, m194, m195, m196, m197, m198, m199
+m200, m201, m202, m203, m204, m205, m206, m207, m208, m209
+m210, m211, m212, m213, m214, m215
+/
+Q   set of properties
+/
+Q0, Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9
+Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19
+Q20, Q21, Q22, Q23, Q24, Q25, Q26, Q27, Q28, Q29
+Q30, Q31, Q32, Q33, Q34, Q35, Q36, Q37, Q38, Q39
+Q40, Q41, Q42, Q43, Q44, Q45, Q46, Q47, Q48, Q49
+Q50, Q51, Q52, Q53, Q54, Q55, Q56, Q57, Q58, Q59
+Q60, Q61, Q62, Q63, Q64, Q65, Q66, Q67, Q68, Q69
+Q70, Q71, Q72, Q73, Q74, Q75, Q76, Q77, Q78, Q79
+Q80, Q81, Q82, Q83, Q84, Q85, Q86, Q87, Q88, Q89
+Q90, Q91, Q92, Q93, Q94, Q95, Q96, Q97, Q98, Q99
+Q100, Q101, Q102, Q103, Q104, Q105, Q106, Q107, Q108, Q109
+Q110, Q111, Q112, Q113, Q114, Q115, Q116, Q117, Q118, Q119
+Q120, Q121, Q122, Q123, Q124, Q125, Q126, Q127, Q128, Q129
+Q130, Q131, Q132, Q133, Q134, Q135, Q136, Q137, Q138, Q139
+Q140, Q141, Q142, Q143, Q144, Q145, Q146, Q147, Q148, Q149
+Q150, Q151, Q152, Q153, Q154, Q155, Q156, Q157, Q158, Q159
+Q160, Q161, Q162, Q163, Q164, Q165, Q166, Q167, Q168, Q169
+/
+C   set of capacity indices
+/
+ccap0, ccap1, ccap2, ccap3, ccap4, ccap5, ccap6, ccap7, ccap8, ccap9
+ccap10, ccap11, ccap12, ccap13, ccap14, ccap15, ccap16, ccap17, ccap18, ccap19
+ccap20, ccap21, ccap22, ccap23, ccap24, ccap25, ccap26
+/
+
+S_P(s)  set of products
+/
+s10, s15, s48, s49, s53
+s57, s58, s60, s61, s62
+s66, s67, s74, s75, s121
+s126, s127, s130, s148, s168
+s176, s189, s197, s200, s205
+s206, s219, s235, s270, s271
+s273, s283, s302, s320, s321
+s322, s323
+/
+S_M(s)  set of raw materials
+/
+s7, s11, s12, s13, s19
+s20, s21, s42, s63, s77
+s133, s149, s165, s173, s183
+s190, s193, s202, s231, s248
+s251, s254, s257, s261, s264
+s267, s275, s284, s287, s317
+s314
+/
+T   set of periods
+/
+1
+/
+UCDU(u) set of CDUs
+/
+UCDU0, UCDU1
+/
+UPF(u)  set of process units without delta-base formulation
+/
+Upf0, Upf1, Upf2, Upf3, Upf4
+Upf5, Upf6, Upf7, Upf8, Upf9
+Upf10, Upf11, Upf12, Upf13, Upf14
+Upf15, Upf16, Upf17, Upf18, Upf19
+/
+UPD(u)  set of process units with delta-base formulation
+/
+Upd0, Upd1, Upd2, Upd3, Upd4
+/
+UMIX(u) set of mixers
+/
+Umix0, Umix1, Umix2, Umix3, Umix4
+Umix5, Umix6, Umix7, Umix8, Umix9
+Umix10, Umix11, Umix12, Umix13, Umix14
+Umix15, Umix16, Umix17, Umix18, Umix19
+Umix20, Umix21, Umix22, Umix23, Umix24
+Umix25, Umix26, Umix27, Umix28, Umix29
+Umix30, Umix31
+/
+USPL(u) set of splitters
+/
+Usplit0, Usplit1, Usplit2, Usplit3, Usplit4
+Usplit5, Usplit6, Usplit7, Usplit8, Usplit9
+Usplit10, Usplit11, Usplit12, Usplit13, Usplit14
+Usplit15, Usplit16, Usplit17, Usplit18, Usplit19
+Usplit20, Usplit21, Usplit22, Usplit23, Usplit24
+Usplit25, Usplit26, Usplit27, Usplit28, Usplit29
+Usplit30, Usplit31, Usplit32, Usplit33, Usplit34
+Usplit35, Usplit36, Usplit37, Usplit38, Usplit39
+Usplit40, Usplit41, Usplit42, Usplit43, Usplit44
+Usplit45, Usplit46, Usplit47, Usplit48, Usplit49
+Usplit50, Usplit51, Usplit52, Usplit53, Usplit54
+Usplit55, Usplit56, Usplit57, Usplit58, Usplit59
+Usplit60
+/
+UBLD(u) set of blenders
+/
+Ublend0, Ublend1, Ublend2, Ublend3, Ublend4
+Ublend5, Ublend6, Ublend7, Ublend8, Ublend9
+Ublend10, Ublend11
+/
+IU(u,s) set of pairs that stream s is the input of unit u
+/
+UCDU0.s8, UCDU0.s43, UCDU0.s64, UCDU0.s78, UCDU0.s134
+UCDU0.s150, UCDU0.s166, UCDU0.s174, UCDU0.s184, UCDU0.s191
+UCDU0.s194, UCDU0.s203, UCDU0.s232, UCDU0.s249, UCDU0.s252
+UCDU0.s255, UCDU0.s258, UCDU0.s262, UCDU0.s265, UCDU0.s268
+UCDU0.s276, UCDU0.s285, UCDU0.s288, UCDU0.s315, UCDU0.s318
+UCDU1.s9, UCDU1.s44, UCDU1.s65, UCDU1.s79, UCDU1.s135
+UCDU1.s151, UCDU1.s167, UCDU1.s175, UCDU1.s185, UCDU1.s192
+UCDU1.s195, UCDU1.s204, UCDU1.s233, UCDU1.s250, UCDU1.s253
+UCDU1.s256, UCDU1.s259, UCDU1.s263, UCDU1.s266, UCDU1.s269
+UCDU1.s277, UCDU1.s286, UCDU1.s289, UCDU1.s316, UCDU1.s319
+Upf0.s178, Upf0.s181, Upf1.s50, Upf1.s56, Upf1.s163
+Upf2.s211, Upf2.s212, Upf3.s1, Upf3.s27, Upf3.s120
+Upf3.s164, Upf4.s37, Upf5.s30, Upf6.s31, Upf6.s39
+Upf6.s246, Upf7.s52, Upf7.s95, Upf7.s116, Upf8.s83
+Upf8.s239, Upd0.s86, Upd0.s87, Upd0.s88, Upd0.s89
+Upd0.s240, Upd1.s100, Upd1.s241, Upf9.s220, Upf9.s242
+Upd2.s103, Upd2.s243, Upf10.s229, Upf10.s230, Upf11.s131
+Upf11.s214, Upf11.s244, Upf12.s21, Upf13.s136, Upf13.s221
+Upf14.s129, Upf14.s216, Upd3.s54, Upf15.s18, Upf15.s223
+Upf15.s224, Upf16.s142, Upd4.s96, Upd4.s274, Upf17.s97
+Upf17.s188, Upf18.s36, Upf18.s98, Upf18.s301, Upf19.s51
+Umix31.s309, Usplit21.s169, Umix0.s17, Umix7.s145, Umix13.s155
+Umix22.s59, Umix21.s41, Umix4.s236, Umix27.s310, Umix27.s20
+Umix22.s5, Umix14.s161, Umix20.s128, Umix22.s226, Usplit5.s245
+Usplit26.s190, Umix16.s35, Umix23.s6, Umix31.s156, Umix20.s139
+Umix20.s137, Umix24.s11, Umix14.s107, Usplit13.s105, Usplit45.s317
+Usplit8.s29, Umix20.s141, Usplit0.s0, Umix20.s138, Usplit4.s238
+Umix22.s207, Usplit10.s42, Usplit47.s314, Umix25.s153, Umix2.s70
+Umix19.s2, Umix8.s3, Usplit11.s63, Umix2.s69, Umix23.s182
+Umix20.s140, Umix23.s187, Umix24.s199, Umix10.s291, Usplit32.s254
+Umix16.s143, Umix6.s111, Usplit36.s264, Umix10.s294, Umix11.s304
+Usplit35.s77, Umix13.s123, Umix27.s47, Usplit15.s133, Umix31.s147
+Umix2.s71, Umix3.s209, Umix22.s278, Umix23.s217, Usplit14.s109
+Usplit40.s287, Umix18.s90, Umix26.s298, Usplit16.s144, Usplit17.s149
+Umix23.s186, Umix26.s297, Usplit24.s180, Umix9.s32, Umix9.s40
+Umix22.s227, Usplit19.s160, Umix16.s26, Umix2.s72, Usplit2.s196
+Umix13.s122, Usplit39.s284, Umix3.s208, Usplit6.s7, Umix25.s38
+Umix18.s91, Usplit18.s157, Umix23.s119, Umix24.s210, Usplit42.s293
+Umix13.s152, Umix0.s16, Umix31.s300, Umix8.s117, Umix13.s25
+Umix17.s101, Usplit30.s248, Umix23.s46, Usplit29.s231, Umix22.s215
+Umix23.s154, Umix21.s305, Umix15.s213, Umix31.s55, Umix25.s28
+Umix14.s158, Usplit23.s177, Umix14.s171, Umix12.s170, Umix19.s162
+Usplit44.s307, Umix26.s296, Umix14.s172, Umix20.s260, Umix26.s292
+Umix26.s295, Umix18.s92, Umix21.s22, Umix22.s45, Umix22.s225
+Umix15.s279, Umix24.s198, Umix11.s308, Umix20.s99, Umix4.s237
+Umix6.s81, Umix5.s325, Umix2.s73, Umix19.s159, Umix28.s306
+Usplit7.s24, Umix8.s108, Usplit27.s193, Usplit43.s303, Umix29.s76
+Usplit37.s267, Usplit1.s14, Umix22.s228, Umix23.s179, Umix26.s299
+Umix8.s312, Usplit38.s275, Umix5.s324, Umix27.s313, Umix7.s112
+Usplit33.s257, Usplit22.s173, Usplit46.s311, Umix8.s68, Umix21.s82
+Usplit31.s251, Usplit12.s94, Usplit28.s202, Usplit34.s261, Umix1.s33
+Usplit41.s290, Usplit9.s34, Usplit3.s218, Umix30.s80, Umix23.s247
+Umix16.s146, Umix22.s222, Usplit56.s113, Usplit52.s272, Usplit50.s118
+Usplit54.s4, Usplit55.s281, Usplit60.s125, Usplit51.s19, Usplit59.s85
+Usplit53.s326, Usplit48.s13, Usplit49.s12, Usplit58.s124, Usplit57.s280
+Ublend8.s282, Ublend2.s84, Ublend4.s132, Ublend4.s357, Ublend5.s347
+Ublend0.s201, Ublend5.s348, Ublend1.s106, Ublend3.s346, Ublend4.s342
+Ublend5.s340, Ublend4.s349, Ublend2.s339, Ublend3.s361, Ublend6.s338
+Ublend9.s104, Ublend4.s234, Ublend9.s363, Ublend5.s362, Ublend4.s344
+Ublend6.s115, Ublend2.s356, Ublend1.s23, Ublend2.s359, Ublend11.s93
+Ublend7.s343, Ublend3.s335, Ublend4.s336, Ublend4.s353, Ublend3.s358
+Ublend11.s102, Ublend5.s355, Ublend1.s110, Ublend4.s360, Ublend10.s354
+Ublend5.s345, Ublend6.s341, Ublend8.s114, Ublend3.s350, Ublend4.s352
+Ublend5.s337, Ublend4.s351, Usplit20.s165, Usplit25.s183
+/
+OU(u,s) set of pairs that stream s is the output of unit u
+/
+UCDU0.s0, UCDU0.s122, UCDU0.s157, UCDU0.s169, UCDU0.s290
+UCDU0.s296, UCDU0.s298, UCDU0.s300, UCDU0.s303, UCDU0.s310
+UCDU1.s3, UCDU1.s123, UCDU1.s160, UCDU1.s172, UCDU1.s293
+UCDU1.s297, UCDU1.s299, UCDU1.s307, UCDU1.s311, Upf0.s4
+Upf0.s5, Upf0.s6, Upf1.s48, Upf1.s139, Upf1.s152
+Upf1.s153, Upf1.s154, Upf1.s155, Upf1.s156, Upf1.s225
+Upf2.s45, Upf2.s46, Upf2.s47, Upf2.s128, Upf3.s24
+Upf3.s28, Upf3.s29, Upf3.s32, Upf3.s33, Upf3.s61
+Upf3.s137, Upf3.s223, Upf4.s34, Upf4.s38, Upf4.s39
+Upf4.s40, Upf4.s41, Upf4.s62, Upf4.s138, Upf4.s224
+Upf5.s69, Upf5.s74, Upf5.s177, Upf5.s186, Upf5.s229
+Upf6.s70, Upf6.s75, Upf6.s180, Upf6.s187, Upf6.s230
+Upf7.s115, Upf7.s117, Upf7.s118, Upf7.s119, Upf7.s120
+Upf7.s121, Upf7.s129, Upf7.s131, Upf7.s132, Upf8.s84
+Upf8.s85, Upf8.s226, Upd0.s90, Upd0.s91, Upd0.s92
+Upd0.s93, Upd0.s126, Upd0.s140, Upd0.s227, Upd1.s101
+Upd1.s102, Upd1.s127, Upd1.s141, Upd1.s228, Upf9.s114
+Upf9.s198, Upd2.s104, Upd2.s130, Upd2.s215, Upf10.s205
+Upf10.s206, Upf11.s71, Upf11.s199, Upf12.s16, Upf12.s208
+Upf12.s213, Upf12.s236, Upf12.s279, Upf12.s324, Upf13.s17
+Upf13.s23, Upf13.s209, Upf13.s210, Upf13.s237, Upf13.s280
+Upf13.s325, Upf14.s136, Upf14.s217, Upf14.s218, Upf14.s221
+Upf14.s222, Upf14.s235, Upf14.s238, Upd3.s55, Upd3.s56
+Upf15.s22, Upf15.s59, Upf15.s270, Upf15.s278, Upf15.s281
+Upf15.s326, Upf16.s72, Upf16.s189, Upf16.s271, Upd4.s73
+Upd4.s260, Upd4.s272, Upd4.s273, Upf17.s216, Upf17.s245
+Upf17.s282, Upf18.s99, Upf18.s105, Upf18.s108, Upf18.s109
+Upf18.s214, Upf18.s302, Upf19.s164, Upf19.s201, Umix13.s88
+Umix11.s82, Umix26.s143, Umix25.s49, Umix31.s301, Umix9.s76
+Usplit4.s244, Usplit4.s239, Usplit22.s174, Umix29.s274, Usplit33.s258
+Usplit39.s286, Usplit15.s134, Usplit4.s242, Umix25.s168, Usplit23.s178
+Usplit35.s79, Usplit34.s262, Umix26.s144, Usplit12.s97, Usplit41.s292
+Usplit42.s295, Usplit18.s158, Usplit20.s167, Usplit38.s277, Usplit45.s319
+Usplit45.s318, Usplit46.s312, Usplit40.s288, Usplit1.s15, Usplit20.s166
+Umix24.s94, Usplit1.s18, Usplit36.s266, Usplit36.s265, Usplit33.s259
+Umix16.s116, Usplit40.s289, Usplit15.s135, Umix4.s234, Umix2.s68
+Umix13.s86, Usplit47.s316, Umix5.s323, Usplit7.s26, Usplit10.s43
+Usplit12.s95, Usplit39.s285, Umix14.s100, Usplit9.s36, Usplit21.s171
+Usplit28.s203, Umix28.s54, Umix13.s87, Usplit14.s111, Usplit35.s78
+Umix21.s163, Usplit17.s151, Usplit43.s304, Usplit0.s1, Usplit47.s315
+Usplit29.s233, Usplit16.s146, Umix27.s188, Usplit30.s250, Usplit19.s161
+Usplit41.s291, Usplit13.s107, Umix0.s14, Usplit16.s145, Usplit43.s306
+Usplit10.s44, Usplit0.s2, Usplit4.s241, Umix17.s125, Usplit8.s31
+Usplit12.s98, Umix30.s283, Umix10.s81, Umix19.s103, Usplit5.s246
+Usplit12.s96, Usplit3.s220, Usplit14.s110, Usplit27.s195, Usplit8.s30
+Usplit17.s150, Usplit21.s170, Usplit5.s247, Umix8.s212, Umix22.s196
+Usplit25.s185, Usplit7.s25, Usplit19.s162, Usplit3.s219, Usplit31.s253
+Usplit31.s252, Usplit42.s294, Usplit44.s309, Usplit32.s256, Usplit37.s269
+Usplit25.s184, Umix18.s124, Usplit18.s159, Umix15.s113, Umix20.s142
+Umix12.s83, Usplit44.s308, Usplit23.s179, Usplit4.s243, Usplit2.s80
+Usplit2.s197, Usplit28.s204, Usplit11.s65, Usplit16.s147, Usplit38.s276
+Usplit32.s255, Usplit24.s182, Umix6.s27, Umix16.s52, Umix13.s89
+Umix21.s50, Usplit22.s175, Umix23.s200, Usplit13.s106, Usplit46.s313
+Umix8.s211, Usplit24.s181, Umix3.s207, Umix7.s37, Usplit43.s305
+Usplit9.s35, Usplit37.s268, Usplit29.s232, Usplit14.s112, Usplit6.s8
+Usplit6.s9, Usplit34.s263, Usplit11.s64, Umix1.s51, Usplit4.s240
+Usplit26.s191, Usplit30.s249, Usplit27.s194, Usplit26.s192, Usplit60.s339
+Usplit53.s346, Usplit52.s361, Usplit50.s363, Usplit56.s336, Usplit57.s337
+Usplit54.s362, Usplit54.s344, Usplit48.s345, Usplit51.s353, Usplit55.s357
+Usplit48.s352, Usplit57.s351, Usplit49.s355, Usplit48.s350, Usplit59.s354
+Usplit53.s348, Usplit58.s343, Usplit50.s341, Usplit51.s335, Usplit52.s340
+Usplit60.s338, Usplit58.s356, Usplit53.s342, Usplit55.s347, Usplit59.s359
+Usplit49.s360, Usplit56.s358, Usplit52.s349, Ublend8.s176, Ublend6.s53
+Ublend3.s67, Ublend10.s57, Ublend11.s60, Ublend1.s66, Ublend5.s322
+Ublend0.s10, Ublend7.s58, Ublend9.s148, Ublend2.s320, Ublend4.s321
+/
+IM(u,m,s)   set of groups that stream s is the input of unit u in batch m
+/
+UCDU0.m0.s262, UCDU0.m0.s78, UCDU0.m0.s134, UCDU0.m0.s203, UCDU0.m0.s255
+UCDU0.m0.s150, UCDU0.m0.s194, UCDU0.m0.s249, UCDU0.m0.s252, UCDU0.m0.s174
+UCDU0.m0.s288, UCDU0.m0.s276, UCDU0.m0.s258, UCDU0.m0.s64, UCDU0.m0.s166
+UCDU0.m0.s191, UCDU0.m0.s43, UCDU0.m0.s285, UCDU0.m0.s315, UCDU0.m0.s232
+UCDU0.m0.s265, UCDU0.m0.s318, UCDU0.m0.s268, UCDU0.m0.s8, UCDU0.m0.s184
+UCDU1.m1.s263, UCDU1.m1.s79, UCDU1.m1.s135, UCDU1.m1.s204, UCDU1.m1.s256
+UCDU1.m1.s151, UCDU1.m1.s195, UCDU1.m1.s250, UCDU1.m1.s253, UCDU1.m1.s175
+UCDU1.m1.s289, UCDU1.m1.s277, UCDU1.m1.s259, UCDU1.m1.s65, UCDU1.m1.s167
+UCDU1.m1.s192, UCDU1.m1.s44, UCDU1.m1.s286, UCDU1.m1.s316, UCDU1.m1.s233
+UCDU1.m1.s266, UCDU1.m1.s319, UCDU1.m1.s269, UCDU1.m1.s9, UCDU1.m1.s185
+Upf0.m2.s178, Upf0.m3.s181, Upf1.m4.s163, Upf1.m5.s50, Upf1.m6.s56
+Upf2.m7.s211, Upf2.m8.s212, Upf3.m9.s27, Upf3.m10.s1, Upf3.m11.s164
+Upf3.m12.s120, Upf4.m13.s37, Upf5.m14.s30, Upf6.m15.s31, Upf6.m16.s39
+Upf6.m17.s246, Upf7.m18.s116, Upf7.m18.s95, Upf7.m19.s52, Upf7.m19.s95
+Upf8.m20.s83, Upf8.m21.s239, Upd0.m22.s86, Upd0.m22.s240, Upd0.m23.s87
+Upd0.m23.s240, Upd0.m24.s88, Upd0.m24.s240, Upd0.m25.s89, Upd0.m25.s240
+Upd1.m26.s100, Upd1.m26.s241, Upf9.m7.s220, Upf9.m27.s242, Upd2.m28.s103
+Upd2.m28.s243, Upf10.m30.s229, Upf10.m31.s230, Upf11.m32.s244, Upf11.m33.s214
+Upf11.m34.s131, Upf12.m35.s21, Upf13.m36.s221, Upf13.m37.s136, Upf14.m38.s216
+Upf14.m39.s129, Upd3.m40.s54, Upf15.m41.s223, Upf15.m42.s224, Upf15.m43.s18
+Upf16.m44.s142, Upd4.m45.s274, Upd4.m45.s96, Upf17.m46.s188, Upf17.m47.s97
+Upf18.m48.s301, Upf18.m48.s98, Upf18.m49.s36, Upf18.m49.s98, Upf19.m52.s51
+Umix20.m187.s139, Umix20.m187.s141, Umix23.m197.s247, Umix13.m208.s122, Umix12.m184.s170
+Umix23.m197.s154, Umix10.m211.s291, Umix4.m180.s236, Umix16.m199.s146, Umix25.m193.s28
+Umix24.m177.s210, Umix22.m212.s225, Umix27.m182.s20, Umix22.m212.s226, Umix22.m212.s228
+Umix19.m198.s2, Umix25.m193.s38, Umix29.m190.s76, Umix24.m177.s11, Umix8.m195.s3
+Umix28.m192.s306, Umix20.m187.s260, Umix2.m209.s72, Umix19.m198.s159, Umix18.m210.s92
+Umix22.m212.s227, Umix3.m191.s208, Umix7.m201.s145, Umix21.m179.s41, Umix23.m197.s217
+Umix24.m177.s199, Umix15.m204.s279, Umix21.m202.s305, Umix18.m210.s91, Umix31.m176.s55
+Umix27.m182.s310, Umix16.m178.s26, Umix5.m207.s325, Umix14.m213.s171, Umix7.m201.s112
+Umix22.m212.s215, Umix8.m189.s312, Umix0.m215.s16, Umix9.m186.s40, Umix20.m187.s99
+Umix23.m197.s186, Umix2.m209.s70, Umix31.m176.s300, Umix5.m207.s324, Umix16.m199.s143
+Umix23.m197.s119, Umix13.m203.s152, Umix14.m213.s107, Umix30.m194.s80, Umix23.m197.s46
+Umix13.m208.s123, Umix20.m187.s137, Umix9.m186.s32, Umix24.m177.s198, Umix27.m182.s47
+Umix31.m176.s156, Umix27.m182.s313, Umix22.m212.s5, Umix8.m195.s117, Umix26.m181.s298
+Umix20.m187.s140, Umix14.m213.s172, Umix14.m213.s158, Umix19.m198.s162, Umix17.m196.s101
+Umix2.m209.s71, Umix22.m212.s45, Umix6.m200.s111, Umix13.m183.s155, Umix23.m197.s179
+Umix13.m214.s25, Umix2.m209.s69, Umix26.m181.s292, Umix26.m206.s297, Umix20.m187.s138
+Umix8.m195.s68, Umix26.m206.s295, Umix21.m202.s82, Umix4.m180.s237, Umix16.m178.s35
+Umix1.m185.s33, Umix22.m212.s59, Umix22.m212.s278, Umix11.m205.s304, Umix26.m206.s299
+Umix23.m197.s187, Umix22.m212.s207, Umix8.m189.s108, Umix22.m212.s222, Umix23.m197.s182
+Umix0.m215.s17, Umix15.m204.s213, Umix2.m209.s73, Umix25.m188.s153, Umix31.m176.s309
+Umix21.m202.s22, Umix14.m213.s161, Umix3.m191.s209, Umix11.m205.s308, Umix10.m211.s294
+Umix26.m181.s296, Umix18.m210.s90, Umix6.m200.s81, Umix31.m176.s147, Umix23.m197.s6
+Umix20.m187.s128
+/
+OM(u,m,s)   set of groups that stream s is the output of unit u in batch m
+/
+UCDU0.m0.s0, UCDU0.m0.s310, UCDU0.m0.s157, UCDU0.m0.s169, UCDU0.m0.s122
+UCDU0.m0.s290, UCDU0.m0.s296, UCDU0.m0.s298, UCDU0.m0.s300, UCDU0.m0.s303
+UCDU1.m1.s3, UCDU1.m1.s311, UCDU1.m1.s160, UCDU1.m1.s172, UCDU1.m1.s123
+UCDU1.m1.s293, UCDU1.m1.s297, UCDU1.m1.s299, UCDU1.m1.s307, Upf0.m2.s4
+Upf0.m2.s5, Upf0.m2.s6, Upf0.m3.s4, Upf0.m3.s5, Upf0.m3.s6
+Upf1.m4.s139, Upf1.m4.s225, Upf1.m4.s154, Upf1.m4.s155, Upf1.m4.s152
+Upf1.m4.s156, Upf1.m4.s153, Upf1.m4.s48, Upf1.m5.s139, Upf1.m5.s225
+Upf1.m5.s154, Upf1.m5.s155, Upf1.m5.s152, Upf1.m5.s156, Upf1.m5.s153
+Upf1.m5.s48, Upf1.m6.s139, Upf1.m6.s225, Upf1.m6.s154, Upf1.m6.s155
+Upf1.m6.s152, Upf1.m6.s156, Upf1.m6.s153, Upf1.m6.s48, Upf2.m7.s128
+Upf2.m7.s45, Upf2.m7.s46, Upf2.m7.s47, Upf2.m8.s128, Upf2.m8.s45
+Upf2.m8.s46, Upf2.m8.s47, Upf3.m9.s137, Upf3.m9.s223, Upf3.m9.s29
+Upf3.m9.s32, Upf3.m9.s24, Upf3.m9.s33, Upf3.m9.s28, Upf3.m9.s61
+Upf3.m10.s137, Upf3.m10.s223, Upf3.m10.s29, Upf3.m10.s32, Upf3.m10.s61
+Upf3.m11.s137, Upf3.m11.s223, Upf3.m11.s29, Upf3.m11.s32, Upf3.m11.s24
+Upf3.m11.s33, Upf3.m11.s28, Upf3.m11.s61, Upf3.m12.s223, Upf3.m12.s29
+Upf3.m12.s32, Upf3.m12.s24, Upf3.m12.s33, Upf3.m12.s28, Upf3.m12.s61
+Upf4.m13.s138, Upf4.m13.s224, Upf4.m13.s39, Upf4.m13.s40, Upf4.m13.s34
+Upf4.m13.s41, Upf4.m13.s38, Upf4.m13.s62, Upf5.m14.s69, Upf5.m14.s186
+Upf5.m14.s229, Upf5.m14.s177, Upf5.m14.s74, Upf6.m15.s70, Upf6.m15.s187
+Upf6.m15.s230, Upf6.m15.s180, Upf6.m15.s75, Upf6.m16.s70, Upf6.m16.s187
+Upf6.m16.s230, Upf6.m16.s180, Upf6.m16.s75, Upf6.m17.s70, Upf6.m17.s187
+Upf6.m17.s230, Upf6.m17.s180, Upf6.m17.s75, Upf7.m18.s117, Upf7.m18.s131
+Upf7.m18.s119, Upf7.m18.s132, Upf7.m18.s129, Upf7.m18.s118, Upf7.m18.s115
+Upf7.m18.s120, Upf7.m18.s121, Upf7.m19.s117, Upf7.m19.s131, Upf7.m19.s119
+Upf7.m19.s132, Upf7.m19.s129, Upf7.m19.s118, Upf7.m19.s115, Upf7.m19.s120
+Upf7.m19.s121, Upf8.m20.s226, Upf8.m20.s84, Upf8.m20.s85, Upf8.m21.s226
+Upf8.m21.s84, Upf8.m21.s85, Upd0.m22.s140, Upd0.m22.s227, Upd0.m22.s91
+Upd0.m22.s126, Upd0.m23.s140, Upd0.m23.s227, Upd0.m23.s90, Upd0.m23.s126
+Upd0.m24.s140, Upd0.m24.s227, Upd0.m24.s92, Upd0.m24.s126, Upd0.m25.s140
+Upd0.m25.s227, Upd0.m25.s93, Upd0.m25.s92, Upd1.m26.s141, Upd1.m26.s228
+Upd1.m26.s102, Upd1.m26.s101, Upd1.m26.s127, Upf9.m7.s198, Upf9.m7.s114
+Upf9.m27.s198, Upf9.m27.s114, Upd2.m28.s215, Upd2.m28.s104, Upd2.m28.s130
+Upf10.m30.s205, Upf10.m30.s206, Upf10.m31.s205, Upf10.m31.s206, Upf11.m32.s71
+Upf11.m32.s199, Upf11.m33.s71, Upf11.m33.s199, Upf11.m34.s71, Upf11.m34.s199
+Upf12.m35.s213, Upf12.m35.s208, Upf12.m35.s16, Upf12.m35.s279, Upf12.m35.s324
+Upf12.m35.s236, Upf13.m36.s23, Upf13.m36.s210, Upf13.m36.s325, Upf13.m36.s209
+Upf13.m36.s17, Upf13.m36.s280, Upf13.m36.s237, Upf13.m37.s23, Upf13.m37.s210
+Upf13.m37.s325, Upf13.m37.s209, Upf13.m37.s17, Upf13.m37.s280, Upf13.m37.s237
+Upf14.m38.s222, Upf14.m38.s238, Upf14.m38.s218, Upf14.m38.s217, Upf14.m38.s221
+Upf14.m38.s136, Upf14.m38.s235, Upf14.m39.s222, Upf14.m39.s238, Upf14.m39.s218
+Upf14.m39.s217, Upf14.m39.s221, Upf14.m39.s136, Upf14.m39.s235, Upd3.m40.s55
+Upd3.m40.s56, Upf15.m41.s326, Upf15.m41.s59, Upf15.m41.s281, Upf15.m41.s270
+Upf15.m41.s22, Upf15.m41.s278, Upf15.m42.s326, Upf15.m42.s59, Upf15.m42.s281
+Upf15.m42.s270, Upf15.m42.s22, Upf15.m42.s278, Upf15.m43.s326, Upf15.m43.s59
+Upf15.m43.s281, Upf15.m43.s270, Upf15.m43.s22, Upf15.m43.s278, Upf16.m44.s72
+Upf16.m44.s189, Upf16.m44.s271, Upd4.m45.s73, Upd4.m45.s260, Upd4.m45.s272
+Upd4.m45.s273, Upf17.m46.s245, Upf17.m46.s282, Upf17.m46.s216, Upf17.m47.s245
+Upf17.m47.s282, Upf17.m47.s216, Upf18.m48.s99, Upf18.m48.s214, Upf18.m48.s108
+Upf18.m48.s105, Upf18.m48.s109, Upf18.m48.s302, Upf18.m49.s99, Upf18.m49.s214
+Upf18.m49.s108, Upf18.m49.s105, Upf18.m49.s109, Upf18.m49.s302, Upf19.m52.s164
+Upf19.m52.s201, Umix10.m211.s81, Umix20.m187.s142, Umix26.m181.s143, Umix4.m180.s234
+Umix3.m191.s207, Umix16.m178.s52, Umix11.m205.s82, Umix15.m204.s113, Umix9.m186.s76
+Umix8.m195.s211, Umix13.m214.s86, Umix21.m202.s163, Umix28.m192.s54, Umix7.m201.s37
+Umix6.m200.s27, Umix31.m176.s301, Umix12.m184.s83, Umix22.m212.s196, Umix16.m199.s116
+Umix0.m215.s14, Umix13.m203.s88, Umix17.m196.s125, Umix2.m209.s68, Umix29.m190.s274
+Umix26.m206.s144, Umix25.m188.s168, Umix25.m193.s49, Umix5.m207.s323, Umix18.m210.s124
+Umix14.m213.s100, Umix13.m208.s87, Umix1.m185.s51, Umix24.m177.s94, Umix23.m197.s200
+Umix30.m194.s283, Umix13.m183.s89, Umix27.m182.s188, Umix8.m189.s212, Umix21.m179.s50
+Umix19.m198.s103
+/
+SC(u,m,s,ss)    set of groups that cut fraction ss can be merged into output stream s of CDU u in batch m
+/
+UCDU0.m0.s122.s290, UCDU0.m0.s0.s303, UCDU0.m0.s169.s303, UCDU0.m0.s0.s310, UCDU0.m0.s157.s327
+UCDU0.m0.s157.s329, UCDU0.m0.s169.s329, UCDU0.m0.s296.s331, UCDU0.m0.s300.s333, UCDU1.m1.s3.s297
+UCDU1.m1.s172.s297, UCDU1.m1.s307.s297, UCDU1.m1.s160.s311, UCDU1.m1.s160.s328, UCDU1.m1.s311.s328
+UCDU1.m1.s160.s330, UCDU1.m1.s172.s330, UCDU1.m1.s297.s332, UCDU1.m1.s299.s334
+/
+SPG(q)  specific gravity
+/
+Q168
+/
+Qv(q)   set of volume-based properties
+/
+
+/
+Qw(q)   set of weight-based properties
+/
+Q0, Q1, Q2, Q3, Q4
+Q5, Q6, Q7, Q8, Q9
+Q10, Q11, Q12, Q13, Q14
+Q15, Q16, Q17, Q18, Q19
+Q20, Q21, Q22, Q23, Q24
+Q25, Q26, Q27, Q28, Q29
+Q30, Q31, Q32, Q33, Q34
+Q35, Q36, Q37, Q38, Q39
+Q40, Q41, Q42, Q43, Q44
+Q46, Q47, Q48, Q49, Q50
+Q51, Q52, Q53, Q54, Q55
+Q56, Q57, Q58, Q59, Q60
+Q61, Q62, Q63, Q64, Q65
+Q66, Q67, Q68, Q69, Q70
+Q71, Q72, Q73, Q74, Q75
+Q76, Q77, Q78, Q79, Q80
+Q81, Q82, Q83, Q84, Q85
+Q86, Q87, Q88, Q89, Q90
+Q91, Q92, Q93, Q94, Q95
+Q96, Q97, Q98, Q99, Q100
+Q101, Q102, Q103, Q104, Q105
+Q106, Q107, Q108, Q109, Q110
+Q111, Q112, Q113, Q114, Q115
+Q116, Q117, Q118, Q119, Q120
+Q121, Q122, Q123, Q124, Q125
+Q126, Q127, Q128, Q129, Q130
+Q131, Q132, Q133, Q134, Q135
+Q136, Q137, Q138, Q139, Q140
+Q141, Q142, Q143, Q144, Q145
+Q146, Q147, Q148, Q149, Q150
+Q151, Q152, Q153, Q154, Q155
+Q156, Q157, Q158, Q159, Q160
+Q161, Q162, Q163, Q164, Q165
+Q166, Q167
+/
+Qp(q)   set of percentage properties
+/
+Q169
+/
+SQ(s,q) set of traced property q of stream s
+/
+s0.Q0, s0.Q168, s1.Q0, s1.Q168, s2.Q0
+s2.Q168, s3.Q0, s3.Q168, s4.Q168, s4.Q0
+s4.Q2, s4.Q4, s4.Q51, s4.Q13, s4.Q8
+s4.Q11, s4.Q52, s4.Q6, s4.Q10, s10.Q0
+s12.Q168, s12.Q0, s12.Q2, s12.Q4, s12.Q51
+s12.Q13, s12.Q11, s12.Q52, s12.Q6, s13.Q168
+s13.Q0, s13.Q2, s13.Q4, s13.Q51, s13.Q13
+s13.Q8, s13.Q11, s13.Q52, s13.Q6, s13.Q10
+s14.Q168, s14.Q0, s15.Q168, s15.Q0, s18.Q168
+s18.Q0, s19.Q168, s19.Q0, s19.Q2, s19.Q4
+s19.Q51, s19.Q13, s19.Q11, s19.Q52, s19.Q6
+s20.Q168, s20.Q0, s20.Q5, s23.Q168, s23.Q14
+s24.Q168, s24.Q15, s24.Q14, s24.Q18, s24.Q0
+s25.Q168, s25.Q15, s25.Q14, s25.Q18, s25.Q0
+s26.Q168, s26.Q15, s26.Q14, s26.Q18, s26.Q0
+s27.Q0, s27.Q168, s27.Q21, s27.Q22, s27.Q23
+s28.Q0, s29.Q168, s29.Q0, s30.Q168, s30.Q0
+s31.Q168, s31.Q0, s32.Q168, s32.Q2, s32.Q4
+s32.Q51, s32.Q13, s32.Q11, s32.Q52, s32.Q6
+s32.Q10, s32.Q0, s33.Q168, s33.Q47, s33.Q21
+s33.Q22, s33.Q23, s33.Q0, s34.Q168, s34.Q15
+s34.Q14, s34.Q18, s34.Q0, s35.Q168, s35.Q15
+s35.Q14, s35.Q18, s35.Q0, s36.Q168, s36.Q15
+s36.Q14, s36.Q18, s36.Q0, s37.Q0, s37.Q168
+s37.Q21, s37.Q22, s37.Q23, s38.Q0, s39.Q168
+s39.Q0, s40.Q168, s40.Q2, s40.Q4, s40.Q51
+s40.Q13, s40.Q11, s40.Q52, s40.Q6, s40.Q10
+s40.Q0, s41.Q168, s41.Q47, s41.Q21, s41.Q22
+s41.Q23, s41.Q0, s46.Q0, s47.Q168, s47.Q0
+s47.Q5, s49.Q0, s50.Q168, s50.Q21, s50.Q0
+s51.Q0, s51.Q21, s51.Q22, s51.Q23, s51.Q47
+s51.Q168, s53.Q0, s53.Q168, s53.Q11, s53.Q14
+s54.Q168, s54.Q0, s54.Q21, s54.Q22, s54.Q23
+s54.Q47, s55.Q168, s55.Q0, s55.Q21, s55.Q22
+s55.Q23, s55.Q47, s56.Q47, s56.Q168, s56.Q0
+s56.Q21, s56.Q22, s56.Q23, s57.Q0, s57.Q14
+s331.Q168, s331.Q0, s331.Q45, s331.Q16, s331.Q15
+s331.Q14, s331.Q18, s331.Q19, s331.Q21, s331.Q22
+s331.Q23, s331.Q25, s331.Q47, s332.Q168, s332.Q0
+s332.Q45, s332.Q16, s332.Q15, s332.Q14, s332.Q18
+s332.Q19, s332.Q21, s332.Q22, s332.Q23, s332.Q25
+s332.Q47, s60.Q0, s60.Q11, s67.Q0, s67.Q2
+s67.Q4, s67.Q51, s67.Q13, s67.Q52, s67.Q11
+s68.Q0, s76.Q168, s76.Q0, s76.Q2, s76.Q4
+s76.Q51, s76.Q13, s76.Q52, s76.Q11, s81.Q0
+s81.Q168, s81.Q21, s81.Q22, s81.Q23, s82.Q21
+s82.Q168, s82.Q0, s82.Q47, s82.Q23, s82.Q22
+s83.Q0, s83.Q17, s83.Q37, s83.Q14, s83.Q15
+s83.Q51, s83.Q168, s84.Q168, s84.Q0, s84.Q14
+s84.Q42, s84.Q11, s84.Q51, s85.Q168, s85.Q15
+s85.Q14, s85.Q0, s85.Q17, s85.Q37, s85.Q51
+s85.Q11, s86.Q0, s86.Q168, s86.Q14, s87.Q168
+s87.Q0, s87.Q14, s88.Q168, s88.Q0, s88.Q14
+s89.Q168, s89.Q0, s90.Q0, s90.Q168, s90.Q14
+s91.Q168, s91.Q0, s91.Q15, s91.Q14, s92.Q0
+s92.Q168, s92.Q14, s93.Q168, s93.Q5, s93.Q2
+s93.Q4, s93.Q51, s93.Q13, s93.Q11, s93.Q52
+s93.Q6, s93.Q10, s93.Q0, s99.Q0, s100.Q0
+s100.Q168, s100.Q14, s101.Q0, s101.Q15, s101.Q168
+s101.Q14, s102.Q168, s102.Q5, s102.Q2, s102.Q4
+s102.Q51, s102.Q13, s102.Q11, s102.Q52, s102.Q6
+s102.Q10, s102.Q0, s103.Q0, s103.Q17, s103.Q37
+s103.Q14, s103.Q15, s103.Q51, s103.Q168, s104.Q168
+s104.Q14, s104.Q42, s104.Q11, s104.Q51, s104.Q0
+s104.Q17, s104.Q37, s104.Q15, s105.Q168, s105.Q14
+s105.Q0, s106.Q168, s106.Q14, s106.Q0, s107.Q168
+s107.Q14, s107.Q0, s108.Q168, s108.Q5, s108.Q2
+s108.Q4, s108.Q51, s108.Q13, s108.Q11, s108.Q52
+s108.Q6, s108.Q10, s108.Q0, s109.Q168, s109.Q47
+s109.Q21, s109.Q22, s109.Q23, s109.Q0, s110.Q168
+s110.Q47, s110.Q21, s110.Q22, s110.Q23, s110.Q0
+s111.Q168, s111.Q47, s111.Q21, s111.Q22, s111.Q23
+s111.Q0, s112.Q168, s112.Q47, s112.Q21, s112.Q22
+s112.Q23, s112.Q0, s113.Q168, s113.Q0, s113.Q2
+s113.Q4, s113.Q51, s113.Q13, s113.Q11, s113.Q52
+s113.Q6, s115.Q168, s115.Q0, s115.Q14, s115.Q11
+s116.Q168, s116.Q0, s116.Q18, s117.Q0, s118.Q168
+s118.Q0, s118.Q14, s118.Q42, s118.Q11, s118.Q51
+s119.Q168, s119.Q0, s120.Q168, s120.Q0, s120.Q21
+s120.Q22, s120.Q23, s122.Q168, s122.Q0, s122.Q45
+s122.Q16, s122.Q15, s122.Q14, s122.Q36, s123.Q168
+s123.Q0, s123.Q45, s123.Q16, s123.Q15, s123.Q14
+s123.Q36, s124.Q168, s124.Q0, s124.Q14, s124.Q11
+s125.Q168, s125.Q0, s125.Q14, s125.Q11, s128.Q0
+s129.Q168, s129.Q0, s129.Q5, s129.Q2, s129.Q4
+s129.Q51, s129.Q13, s129.Q11, s129.Q52, s129.Q6
+s129.Q10, s132.Q168, s132.Q0, s132.Q5, s132.Q2
+s132.Q4, s132.Q51, s132.Q13, s132.Q11, s132.Q52
+s132.Q6, s132.Q10, s136.Q168, s136.Q0, s136.Q2
+s136.Q4, s136.Q51, s136.Q13, s136.Q11, s136.Q52
+s137.Q0, s138.Q0, s139.Q0, s140.Q0, s141.Q0
+s142.Q0, s143.Q0, s143.Q18, s143.Q168, s143.Q21
+s143.Q22, s143.Q23, s144.Q0, s144.Q18, s144.Q168
+s144.Q21, s144.Q22, s144.Q23, s145.Q0, s145.Q18
+s145.Q168, s145.Q21, s145.Q22, s145.Q23, s146.Q0
+s146.Q18, s146.Q168, s146.Q21, s146.Q22, s146.Q23
+s147.Q0, s147.Q18, s147.Q168, s147.Q21, s147.Q22
+s147.Q23, s148.Q0, s148.Q11, s152.Q168, s152.Q0
+s152.Q15, s152.Q14, s152.Q18, s153.Q0, s154.Q0
+s155.Q15, s155.Q18, s155.Q168, s155.Q0, s156.Q168
+s156.Q0, s156.Q21, s156.Q22, s156.Q23, s157.Q21
+s157.Q22, s157.Q23, s157.Q168, s157.Q0, s157.Q17
+s157.Q44, s157.Q45, s157.Q16, s157.Q15, s157.Q14
+s158.Q21, s158.Q22, s158.Q23, s158.Q168, s158.Q0
+s158.Q17, s158.Q44, s158.Q45, s158.Q16, s158.Q15
+s158.Q14, s159.Q21, s159.Q22, s159.Q23, s159.Q168
+s159.Q0, s159.Q17, s159.Q44, s159.Q45, s159.Q16
+s159.Q15, s159.Q14, s160.Q168, s160.Q0, s160.Q17
+s160.Q44, s160.Q45, s160.Q16, s160.Q15, s160.Q14
+s161.Q168, s161.Q0, s161.Q17, s161.Q44, s161.Q45
+s161.Q16, s161.Q15, s161.Q14, s162.Q168, s162.Q0
+s162.Q17, s162.Q44, s162.Q45, s162.Q16, s162.Q15
+s162.Q14, s163.Q168, s163.Q0, s163.Q21, s329.Q168
+s329.Q0, s329.Q17, s329.Q44, s329.Q45, s329.Q16
+s329.Q15, s329.Q14, s330.Q168, s330.Q0, s330.Q17
+s330.Q44, s330.Q45, s330.Q16, s330.Q15, s330.Q14
+s164.Q168, s164.Q0, s164.Q21, s164.Q22, s164.Q23
+s168.Q0, s169.Q168, s169.Q0, s169.Q45, s169.Q16
+s169.Q15, s169.Q14, s169.Q36, s170.Q168, s170.Q0
+s170.Q45, s170.Q16, s170.Q15, s170.Q14, s170.Q36
+s171.Q168, s171.Q0, s171.Q45, s171.Q16, s171.Q15
+s171.Q14, s171.Q36, s172.Q168, s172.Q0, s172.Q45
+s172.Q16, s172.Q15, s172.Q14, s172.Q36, s177.Q168
+s177.Q0, s178.Q168, s178.Q0, s179.Q168, s179.Q0
+s180.Q168, s180.Q0, s181.Q168, s181.Q0, s182.Q168
+s182.Q0, s186.Q168, s186.Q0, s187.Q168, s187.Q0
+s188.Q168, s188.Q0, s188.Q5, s327.Q168, s327.Q0
+s327.Q2, s327.Q4, s327.Q6, s327.Q10, s327.Q11
+s327.Q5, s327.Q17, s327.Q44, s327.Q45, s327.Q16
+s327.Q15, s327.Q14, s328.Q168, s328.Q0, s328.Q2
+s328.Q4, s328.Q6, s328.Q10, s328.Q11, s328.Q5
+s328.Q17, s328.Q44, s328.Q45, s328.Q16, s328.Q15
+s328.Q14, s200.Q0, s201.Q168, s201.Q53, s201.Q0
+s201.Q21, s201.Q22, s201.Q23, s201.Q47, s211.Q0
+s212.Q0, s214.Q168, s214.Q0, s214.Q15, s214.Q14
+s214.Q18, s216.Q0, s216.Q168, s216.Q5, s217.Q168
+s217.Q0, s218.Q168, s218.Q0, s218.Q2, s218.Q4
+s218.Q51, s218.Q13, s218.Q11, s218.Q52, s218.Q6
+s218.Q21, s218.Q22, s218.Q23, s219.Q168, s219.Q0
+s219.Q2, s219.Q4, s219.Q51, s219.Q13, s219.Q11
+s219.Q52, s219.Q6, s219.Q21, s219.Q22, s219.Q23
+s220.Q168, s220.Q0, s220.Q2, s220.Q4, s220.Q51
+s220.Q13, s220.Q11, s220.Q52, s220.Q6, s220.Q21
+s220.Q22, s220.Q23, s221.Q0, s221.Q2, s221.Q4
+s221.Q51, s221.Q13, s221.Q11, s221.Q52, s221.Q6
+s221.Q168, s221.Q5, s229.Q168, s229.Q0, s230.Q168
+s230.Q0, s234.Q168, s234.Q0, s234.Q5, s234.Q2
+s234.Q4, s234.Q51, s234.Q13, s234.Q11, s234.Q52
+s245.Q168, s245.Q0, s246.Q168, s246.Q0, s247.Q168
+s247.Q0, s260.Q0, s271.Q0, s272.Q168, s272.Q0
+s272.Q2, s272.Q4, s272.Q51, s272.Q13, s272.Q11
+s272.Q52, s272.Q6, s272.Q10, s274.Q168, s274.Q0
+s280.Q168, s280.Q0, s280.Q2, s280.Q4, s280.Q51
+s280.Q13, s280.Q11, s280.Q52, s281.Q168, s281.Q0
+s281.Q2, s281.Q4, s281.Q51, s281.Q13, s281.Q11
+s281.Q52, s282.Q168, s282.Q0, s282.Q2, s282.Q4
+s282.Q51, s282.Q13, s282.Q11, s282.Q52, s282.Q6
+s282.Q21, s282.Q22, s282.Q23, s282.Q5, s290.Q0
+s290.Q168, s290.Q18, s290.Q21, s290.Q22, s290.Q23
+s290.Q25, s290.Q47, s290.Q14, s291.Q0, s291.Q168
+s291.Q18, s291.Q21, s291.Q22, s291.Q23, s291.Q25
+s291.Q47, s291.Q14, s292.Q0, s292.Q168, s292.Q18
+s292.Q21, s292.Q22, s292.Q23, s292.Q25, s292.Q47
+s292.Q14, s293.Q168, s293.Q0, s293.Q18, s293.Q21
+s293.Q22, s293.Q23, s293.Q25, s293.Q47, s293.Q14
+s294.Q168, s294.Q0, s294.Q18, s294.Q21, s294.Q22
+s294.Q23, s294.Q25, s294.Q47, s294.Q14, s295.Q168
+s295.Q0, s295.Q18, s295.Q21, s295.Q22, s295.Q23
+s295.Q25, s295.Q47, s295.Q14, s296.Q168, s296.Q0
+s296.Q18, s296.Q21, s296.Q22, s296.Q23, s296.Q25
+s296.Q47, s297.Q168, s297.Q0, s297.Q18, s297.Q21
+s297.Q22, s297.Q23, s297.Q25, s297.Q47, s298.Q168
+s298.Q0, s298.Q18, s298.Q21, s298.Q22, s298.Q23
+s298.Q25, s298.Q47, s299.Q168, s299.Q0, s299.Q18
+s299.Q21, s299.Q22, s299.Q23, s299.Q25, s299.Q47
+s300.Q168, s300.Q0, s300.Q18, s300.Q21, s300.Q22
+s300.Q23, s300.Q25, s300.Q47, s301.Q0, s301.Q21
+s301.Q168, s301.Q22, s301.Q23, s303.Q45, s303.Q47
+s303.Q21, s303.Q22, s303.Q23, s303.Q168, s303.Q0
+s303.Q18, s303.Q25, s304.Q45, s304.Q47, s304.Q21
+s304.Q22, s304.Q23, s304.Q168, s304.Q0, s304.Q18
+s304.Q25, s305.Q45, s305.Q47, s305.Q21, s305.Q22
+s305.Q23, s305.Q168, s305.Q0, s305.Q18, s305.Q25
+s306.Q45, s306.Q47, s306.Q21, s306.Q22, s306.Q23
+s306.Q168, s306.Q0, s306.Q18, s306.Q25, s307.Q168
+s307.Q0, s307.Q18, s307.Q21, s307.Q22, s307.Q23
+s307.Q25, s307.Q47, s308.Q168, s308.Q0, s308.Q18
+s308.Q21, s308.Q22, s308.Q23, s308.Q25, s308.Q47
+s309.Q168, s309.Q0, s309.Q18, s309.Q21, s309.Q22
+s309.Q23, s309.Q25, s309.Q47, s333.Q168, s333.Q0
+s333.Q18, s333.Q21, s333.Q22, s333.Q23, s333.Q25
+s333.Q47, s334.Q168, s334.Q0, s334.Q18, s334.Q21
+s334.Q22, s334.Q23, s334.Q25, s334.Q47, s310.Q5
+s310.Q51, s310.Q13, s310.Q52, s310.Q21, s310.Q22
+s310.Q23, s310.Q168, s310.Q0, s310.Q2, s310.Q4
+s310.Q10, s310.Q11, s310.Q45, s311.Q5, s311.Q51
+s311.Q13, s311.Q52, s311.Q21, s311.Q22, s311.Q23
+s311.Q168, s311.Q0, s311.Q2, s311.Q4, s311.Q10
+s311.Q11, s311.Q45, s312.Q5, s312.Q51, s312.Q13
+s312.Q52, s312.Q21, s312.Q22, s312.Q23, s312.Q168
+s312.Q0, s312.Q2, s312.Q4, s312.Q10, s312.Q11
+s312.Q45, s313.Q5, s313.Q51, s313.Q13, s313.Q52
+s313.Q21, s313.Q22, s313.Q23, s313.Q168, s313.Q0
+s313.Q2, s313.Q4, s313.Q10, s313.Q11, s313.Q45
+s320.Q0, s320.Q168, s320.Q11, s320.Q14, s321.Q0
+s321.Q2, s321.Q4, s321.Q51, s321.Q13, s321.Q52
+s321.Q11, s322.Q0, s322.Q2, s322.Q4, s322.Q51
+s322.Q13, s322.Q52, s322.Q11, s323.Q168, s323.Q0
+s323.Q2, s323.Q4, s323.Q51, s323.Q13, s323.Q11
+s323.Q52, s326.Q0, s326.Q2, s326.Q4, s326.Q51
+s326.Q13, s326.Q52, s326.Q11, s340.Q168, s340.Q0
+s340.Q2, s340.Q4, s340.Q51, s340.Q13, s340.Q11
+s340.Q52, s340.Q6, s340.Q10, s361.Q168, s361.Q0
+s361.Q2, s361.Q4, s361.Q51, s361.Q13, s361.Q11
+s361.Q52, s361.Q6, s361.Q10, s349.Q168, s349.Q0
+s349.Q2, s349.Q4, s349.Q51, s349.Q13, s349.Q11
+s349.Q52, s349.Q6, s349.Q10, s335.Q168, s335.Q0
+s335.Q2, s335.Q4, s335.Q51, s335.Q13, s335.Q11
+s335.Q52, s335.Q6, s353.Q168, s353.Q0, s353.Q2
+s353.Q4, s353.Q51, s353.Q13, s353.Q11, s353.Q52
+s353.Q6, s352.Q168, s352.Q0, s352.Q2, s352.Q4
+s352.Q51, s352.Q13, s352.Q8, s352.Q11, s352.Q52
+s352.Q6, s352.Q10, s345.Q168, s345.Q0, s345.Q2
+s345.Q4, s345.Q51, s345.Q13, s345.Q8, s345.Q11
+s345.Q52, s345.Q6, s345.Q10, s350.Q168, s350.Q0
+s350.Q2, s350.Q4, s350.Q51, s350.Q13, s350.Q8
+s350.Q11, s350.Q52, s350.Q6, s350.Q10, s354.Q168
+s354.Q15, s354.Q14, s354.Q0, s354.Q17, s354.Q37
+s354.Q51, s354.Q11, s359.Q168, s359.Q15, s359.Q14
+s359.Q0, s359.Q17, s359.Q37, s359.Q51, s359.Q11
+s348.Q0, s348.Q2, s348.Q4, s348.Q51, s348.Q13
+s348.Q52, s348.Q11, s346.Q0, s346.Q2, s346.Q4
+s346.Q51, s346.Q13, s346.Q52, s346.Q11, s342.Q0
+s342.Q2, s342.Q4, s342.Q51, s342.Q13, s342.Q52
+s342.Q11, s355.Q168, s355.Q0, s355.Q2, s355.Q4
+s355.Q51, s355.Q13, s355.Q11, s355.Q52, s355.Q6
+s360.Q168, s360.Q0, s360.Q2, s360.Q4, s360.Q51
+s360.Q13, s360.Q11, s360.Q52, s360.Q6, s338.Q168
+s338.Q0, s338.Q14, s338.Q11, s339.Q168, s339.Q0
+s339.Q14, s339.Q11, s358.Q168, s358.Q0, s358.Q2
+s358.Q4, s358.Q51, s358.Q13, s358.Q11, s358.Q52
+s358.Q6, s336.Q168, s336.Q0, s336.Q2, s336.Q4
+s336.Q51, s336.Q13, s336.Q11, s336.Q52, s336.Q6
+s351.Q168, s351.Q0, s351.Q2, s351.Q4, s351.Q51
+s351.Q13, s351.Q11, s351.Q52, s337.Q168, s337.Q0
+s337.Q2, s337.Q4, s337.Q51, s337.Q13, s337.Q11
+s337.Q52, s343.Q168, s343.Q0, s343.Q14, s343.Q11
+s356.Q168, s356.Q0, s356.Q14, s356.Q11, s357.Q168
+s357.Q0, s357.Q2, s357.Q4, s357.Q51, s357.Q13
+s357.Q11, s357.Q52, s347.Q168, s347.Q0, s347.Q2
+s347.Q4, s347.Q51, s347.Q13, s347.Q11, s347.Q52
+s363.Q168, s363.Q0, s363.Q14, s363.Q42, s363.Q11
+s363.Q51, s341.Q168, s341.Q0, s341.Q14, s341.Q42
+s341.Q11, s341.Q51, s344.Q168, s344.Q0, s344.Q2
+s344.Q4, s344.Q51, s344.Q13, s344.Q8, s344.Q11
+s344.Q52, s344.Q6, s344.Q10, s362.Q168, s362.Q0
+s362.Q2, s362.Q4, s362.Q51, s362.Q13, s362.Q8
+s362.Q11, s362.Q52, s362.Q6, s362.Q10
+/
+FIX(s,q)    set of fixed property q of stream s
+/
+s47.Q168, s47.Q0, s47.Q5, s282.Q168, s282.Q0
+s282.Q2, s282.Q4, s282.Q51, s282.Q13, s282.Q11
+s282.Q52, s282.Q6, s282.Q21, s282.Q22, s282.Q23
+s216.Q0, s218.Q168, s218.Q0, s218.Q2, s218.Q4
+s218.Q51, s218.Q13, s218.Q11, s218.Q52, s218.Q6
+s218.Q21, s218.Q22, s218.Q23, s221.Q0, s221.Q2
+s221.Q4, s221.Q13, s221.Q11, s221.Q52, s221.Q6
+s136.Q168, s136.Q0, s136.Q2, s136.Q4, s136.Q51
+s136.Q13, s136.Q11, s136.Q52, s280.Q168, s280.Q0
+s280.Q2, s280.Q4, s280.Q51, s280.Q13, s280.Q11
+s280.Q52, s281.Q168, s281.Q0, s281.Q2, s281.Q4
+s281.Q51, s281.Q13, s281.Q11, s281.Q52, s323.Q168
+s323.Q2, s323.Q4, s323.Q51, s323.Q13, s323.Q11
+s323.Q52, s234.Q168, s234.Q0, s234.Q5, s234.Q2
+s234.Q4, s234.Q51, s234.Q13, s234.Q11, s234.Q52
+s113.Q168, s113.Q0, s113.Q2, s113.Q4, s113.Q51
+s113.Q13, s113.Q11, s113.Q52, s113.Q6, s132.Q168
+s132.Q0, s132.Q5, s132.Q2, s132.Q4, s132.Q13
+s132.Q11, s132.Q52, s132.Q6, s132.Q10, s129.Q168
+s129.Q0, s129.Q5, s129.Q2, s129.Q4, s129.Q51
+s129.Q13, s129.Q11, s129.Q52, s129.Q6, s129.Q10
+s32.Q168, s32.Q2, s32.Q4, s32.Q51, s32.Q13
+s32.Q11, s32.Q52, s32.Q6, s32.Q10, s40.Q168
+s40.Q2, s40.Q4, s40.Q51, s40.Q11, s40.Q52
+s40.Q6, s40.Q10, s93.Q168, s93.Q5, s93.Q2
+s93.Q4, s93.Q51, s93.Q13, s93.Q11, s93.Q52
+s93.Q6, s93.Q10, s272.Q168, s272.Q0, s272.Q2
+s272.Q4, s272.Q51, s272.Q13, s272.Q11, s272.Q52
+s272.Q6, s272.Q10, s102.Q168, s102.Q5, s102.Q2
+s102.Q4, s102.Q51, s102.Q11, s102.Q52, s102.Q6
+s102.Q10, s108.Q168, s108.Q5, s108.Q2, s108.Q4
+s108.Q51, s108.Q13, s108.Q11, s108.Q52, s108.Q6
+s108.Q10, s310.Q5, s310.Q51, s310.Q13, s310.Q52
+s310.Q21, s310.Q22, s310.Q23, s311.Q5, s311.Q51
+s311.Q13, s311.Q52, s311.Q21, s311.Q22, s311.Q23
+s13.Q168, s13.Q2, s13.Q4, s13.Q51, s13.Q13
+s13.Q8, s13.Q11, s13.Q52, s13.Q6, s13.Q10
+s12.Q168, s12.Q0, s12.Q2, s12.Q4, s12.Q51
+s12.Q13, s12.Q11, s12.Q52, s12.Q6, s20.Q168
+s20.Q0, s20.Q5, s19.Q168, s19.Q0, s19.Q2
+s19.Q4, s19.Q51, s19.Q13, s19.Q11, s19.Q52
+s290.Q0, s81.Q0, s143.Q0, s143.Q18, s144.Q0
+s144.Q18, s4.Q168, s4.Q0, s4.Q2, s4.Q4
+s4.Q51, s4.Q13, s4.Q8, s4.Q11, s4.Q52
+s4.Q6, s4.Q10, s128.Q0, s46.Q0, s245.Q168
+s245.Q0, s217.Q168, s217.Q0, s14.Q168, s14.Q0
+s137.Q0, s138.Q0, s29.Q168, s29.Q0, s39.Q0
+s24.Q168, s24.Q15, s24.Q14, s24.Q18, s34.Q168
+s34.Q15, s34.Q14, s34.Q18, s33.Q168, s33.Q47
+s33.Q21, s33.Q22, s33.Q23, s41.Q168, s41.Q47
+s41.Q21, s41.Q22, s41.Q23, s164.Q168, s164.Q0
+s164.Q21, s164.Q22, s164.Q23, s201.Q168, s201.Q53
+s117.Q0, s119.Q168, s119.Q0, s118.Q0, s118.Q14
+s118.Q42, s118.Q11, s118.Q51, s115.Q168, s115.Q0
+s115.Q14, s120.Q168, s120.Q0, s120.Q21, s120.Q22
+s120.Q23, s139.Q0, s155.Q15, s155.Q18, s152.Q168
+s152.Q0, s152.Q15, s152.Q14, s152.Q18, s56.Q47
+s99.Q0, s214.Q168, s214.Q0, s214.Q15, s214.Q14
+s214.Q18, s105.Q168, s23.Q168, s23.Q14, s109.Q168
+s109.Q47, s109.Q21, s109.Q22, s109.Q23, s84.Q168
+s84.Q0, s84.Q14, s84.Q42, s84.Q11, s84.Q51
+s85.Q168, s85.Q15, s85.Q14, s140.Q0, s91.Q168
+s91.Q0, s91.Q15, s90.Q0, s92.Q0, s141.Q0
+s101.Q0, s101.Q15, s104.Q168, s104.Q14, s104.Q42
+s104.Q11, s260.Q0, s68.Q0, s186.Q168, s186.Q0
+s229.Q168, s229.Q0, s177.Q168, s187.Q168, s187.Q0
+s230.Q168, s230.Q0, s180.Q168, s271.Q0, s0.Q0
+s3.Q0, s157.Q21, s157.Q22, s157.Q23, s303.Q45
+s303.Q47, s303.Q21, s303.Q22, s303.Q23, s361.Q0
+s349.Q0, s340.Q2, s361.Q2, s340.Q4, s361.Q4
+s349.Q4, s361.Q51, s349.Q51, s340.Q13, s349.Q13
+s340.Q11, s361.Q11, s340.Q52, s361.Q52, s349.Q52
+s361.Q6, s349.Q6, s340.Q10, s349.Q10, s335.Q168
+s353.Q168, s353.Q0, s335.Q2, s353.Q2, s353.Q4
+s335.Q51, s353.Q51, s353.Q13, s335.Q11, s353.Q11
+s353.Q52, s335.Q6, s353.Q6, s345.Q168, s350.Q168
+s352.Q0, s350.Q0, s352.Q2, s345.Q2, s352.Q4
+s345.Q4, s350.Q4, s345.Q51, s350.Q51, s352.Q13
+s350.Q13, s352.Q8, s345.Q8, s352.Q11, s345.Q11
+s350.Q11, s345.Q52, s350.Q52, s352.Q6, s350.Q6
+s352.Q10, s345.Q10, s354.Q168, s359.Q168, s354.Q15
+s354.Q14, s359.Q14, s355.Q168, s355.Q0, s360.Q0
+s355.Q2, s355.Q4, s360.Q4, s355.Q51, s355.Q13
+s360.Q13, s355.Q11, s355.Q52, s360.Q52, s355.Q6
+s358.Q168, s336.Q168, s358.Q0, s358.Q2, s336.Q2
+s358.Q4, s358.Q51, s336.Q51, s358.Q13, s358.Q11
+s336.Q11, s358.Q52, s358.Q6, s336.Q6, s351.Q168
+s351.Q0, s337.Q0, s351.Q2, s351.Q4, s337.Q4
+s351.Q51, s351.Q13, s337.Q13, s351.Q11, s351.Q52
+s337.Q52, s357.Q168, s357.Q0, s347.Q0, s357.Q2
+s357.Q4, s347.Q4, s357.Q51, s357.Q13, s347.Q13
+s357.Q11, s357.Q52, s347.Q52, s363.Q168, s363.Q0
+s341.Q0, s363.Q14, s363.Q42, s341.Q42, s363.Q11
+s363.Q51, s341.Q51, s344.Q168, s344.Q0, s362.Q0
+s344.Q2, s344.Q4, s362.Q4, s344.Q51, s344.Q13
+s362.Q13, s344.Q8, s344.Q11, s362.Q11, s344.Q52
+s344.Q6, s362.Q6, s344.Q10, s326.Q2, s326.Q4
+/
+QT(s,ss,q)  set of property q transferred from s to ss
+/
+s27.s24.Q0, s27.s28.Q0, s27.s32.Q0, s27.s33.Q0, s29.s177.Q0
+s37.s34.Q0, s37.s38.Q0, s37.s40.Q0, s37.s41.Q0, s51.s201.Q0
+s51.s201.Q21, s51.s201.Q22, s51.s201.Q23, s51.s201.Q47, s54.s55.Q0
+s54.s55.Q168, s54.s55.Q21, s54.s55.Q22, s54.s55.Q23, s54.s55.Q47
+s54.s56.Q0, s54.s56.Q168, s54.s56.Q21, s54.s56.Q22, s54.s56.Q23
+s83.s84.Q0, s83.s85.Q0, s83.s85.Q14, s83.s85.Q15, s83.s85.Q17
+s83.s85.Q37, s83.s85.Q51, s86.s91.Q0, s86.s91.Q168, s86.s91.Q14
+s86.s93.Q0, s87.s90.Q0, s87.s90.Q168, s87.s90.Q14, s88.s92.Q0
+s88.s92.Q168, s88.s92.Q14, s100.s101.Q0, s100.s101.Q168, s100.s101.Q14
+s100.s102.Q0, s103.s104.Q0, s103.s104.Q14, s103.s104.Q15, s103.s104.Q17
+s103.s104.Q37, s103.s104.Q51, s163.s152.Q0, s163.s153.Q0, s163.s155.Q0
+s163.s155.Q168, s163.s156.Q0, s163.s156.Q168, s163.s156.Q21, s188.s216.Q0
+s188.s216.Q168, s188.s216.Q5, s188.s221.Q168, s188.s221.Q5, s188.s282.Q5
+s274.s272.Q168, s301.s105.Q0, s301.s108.Q0, s301.s109.Q0, s301.s109.Q21
+/
+VMQ(u,m,s,q)    set of property q under control for virtual batch m of mixer-based unit u
+/
+Umix16.m104.s35.Q169, Umix21.m126.s305.Q169, Umix16.m104.s143.Q169, Umix16.m103.s146.Q169, Umix31.m175.s55.Q169
+Umix7.m73.s145.Q169, Umix31.m175.s300.Q169, Umix21.m126.s41.Q169, Umix6.m69.s81.Q169, Umix31.m175.s147.Q169
+Umix21.m125.s305.Q169, Umix21.m126.s82.Q169, Umix16.m104.s146.Q169, Umix27.m166.s313.Q169, Umix6.m69.s111.Q169
+Umix27.m166.s310.Q169, Umix31.m175.s309.Q169, Umix21.m125.s82.Q169, Umix27.m166.s47.Q169, Umix7.m73.s112.Q169
+Umix16.m104.s26.Q169, Umix27.m166.s20.Q169, Umix31.m175.s156.Q169, Umix16.m103.s143.Q169, Upf18.m50.s36.Q169
+/
+DBSQ(u,m,s,q)   delta-base formulation of unit u in batch m involves inlet stream s and property q
+/
+Upd0.m22.s86.Q0, Upd0.m22.s86.Q168, Upd0.m23.s87.Q0, Upd0.m23.s87.Q168, Upd0.m24.s88.Q0
+Upd0.m24.s88.Q168, Upd0.m25.s89.Q0, Upd0.m25.s89.Q168, Upd1.m26.s100.Q0, Upd1.m26.s100.Q168
+Upd2.m28.s103.Q0, Upd2.m28.s103.Q168, Upd3.m40.s54.Q168, Upd3.m40.s54.Q21, Upd4.m45.s274.Q0
+/
+CAPIN(c)    set of inlet stream capacity control
+/
+ccap0, ccap1, ccap3, ccap4, ccap5
+ccap6, ccap7, ccap8, ccap9, ccap10
+ccap11, ccap12, ccap13, ccap14, ccap17
+ccap18, ccap19, ccap20, ccap21, ccap23
+ccap24, ccap25, ccap26
+/
+CAPOUT(c)   set of outlet stream capacity control
+/
+ccap2, ccap15, ccap16, ccap22
+/
+CAPS(c,s)   set of stream s under control for capacity c
+/
+ccap0.s262, ccap0.s78, ccap0.s134, ccap0.s203, ccap0.s255
+ccap0.s150, ccap0.s194, ccap0.s249, ccap0.s252, ccap0.s174
+ccap0.s288, ccap0.s276, ccap0.s258, ccap0.s64, ccap0.s166
+ccap0.s191, ccap0.s43, ccap0.s285, ccap0.s315, ccap0.s232
+ccap0.s265, ccap0.s318, ccap0.s268, ccap0.s8, ccap0.s184
+ccap1.s263, ccap1.s79, ccap1.s135, ccap1.s204, ccap1.s256
+ccap1.s151, ccap1.s195, ccap1.s250, ccap1.s253, ccap1.s175
+ccap1.s289, ccap1.s277, ccap1.s259, ccap1.s65, ccap1.s167
+ccap1.s192, ccap1.s44, ccap1.s286, ccap1.s316, ccap1.s233
+ccap1.s266, ccap1.s319, ccap1.s269, ccap1.s9, ccap1.s185
+ccap2.s4, ccap3.s163, ccap3.s50, ccap3.s56, ccap4.s211
+ccap4.s212, ccap5.s27, ccap5.s1, ccap5.s164, ccap5.s120
+ccap6.s37, ccap7.s30, ccap8.s31, ccap8.s39, ccap8.s246
+ccap9.s116, ccap9.s52, ccap10.s83, ccap11.s86, ccap11.s87
+ccap11.s88, ccap11.s89, ccap12.s100, ccap13.s220, ccap14.s103
+ccap15.s205, ccap16.s199, ccap17.s21, ccap18.s221, ccap18.s136
+ccap19.s216, ccap19.s129, ccap20.s54, ccap21.s223, ccap21.s224
+ccap21.s18, ccap22.s271, ccap23.s274, ccap24.s188, ccap25.s301
+ccap25.s36, ccap26.s51
+/
+
+CDUMQ(u,m,q)    set of property q under control for batch m of CDU u    /  /
+CRU(q)  set of properties under control for CDUs    /  /
+RB(u)   set of proportional blending units  /  /;

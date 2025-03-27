@@ -1,0 +1,864 @@
+Processor information: 1 socket(s), 6 core(s), and 12 thread(s) available
+GAMS 45.5.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
+---   3,428 rows  3,573 columns  12,038 non-zeroes
+---   4,265 nl-code  2,082 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 4.561E-04, 3.000E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 5.000E-05, 1.927E+03] - Zero values observed as well
+--- Matrix    [min, max] : [ 6.345E-06, 1.447E+07] - Zero values observed as well
+--- Executing ANTIGONE (Solvelink=2): elapsed 0:00:00.045
+
+ANTIGONE         45.5.0 8d95ac18 Dec 14, 2023          WEI x86 64bit/MS Window
+ 
+-------------------------------------------------------------------------------
+ANTIGONE: Algorithms for coNTinuous/Integer Global Optimization; Version 1.1
+
+          Ruth Misener and Christodoulos A. Floudas
+
+          Computer-Aided Systems Laboratory (CASL)
+          Department of Chemical & Biological Engineering; Princeton University
+-------------------------------------------------------------------------------
+
+Before Pre-processing:
+         3572 Variables
+                3572 Continuous
+         3428 Equations
+
+After Pre-processing:
+          540 Variables
+                 540 Continuous
+          662 Equations
+                 320 Linear
+                 342 Nonconvex nonlinear
+         1051 Nonlinear Terms
+                1051 Bilinear/Quadratic
+         1148 Possible Reformulation Linearization Technique (RLT) equations
+              6 RLT Equations Added Outright to Formulation
+
+Constituent Libraries:
+            CPLEX  Solving relaxations
+            CONOPT Finding feasible points
+            LAPACK Addressing linear systems
+            Boost  Bounding Intervals
+ 
+-------------------------------------------------------------------------------
+Time (s) Nodes explored Nodes remaining Best possible   Best found Relative Gap
+-------------------------------------------------------------------------------
+ 
+WARNING! Could not deterministically infer all bounds; ANTIGONE guessed some
+         bounds. Supply finite variable bounds to guarantee global optimality
+
+       2              1               1    +4.210e+07   +3.405e+07   +2.366e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+    1222              1               1    +4.206e+07   +3.405e+07   +2.353e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+     Generating Edge-Concave Cuts; 8 generated so far -------------------------
+    2365              1               1    +4.192e+07   +3.405e+07   +2.313e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+    3578              1               1    +4.192e+07   +3.405e+07   +2.312e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+    4775              1               1    +4.191e+07   +3.405e+07   +2.310e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+    6022              1               1    +4.191e+07   +3.405e+07   +2.310e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 10 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+    7221              1               1    +4.191e+07   +3.417e+07   +2.266e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+    8301              1               1    +4.191e+07   +3.417e+07   +2.266e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 29 generated so far ------------------------
+     Generating Edge-Concave Cuts; 29 generated so far ------------------------
+     Generating Edge-Concave Cuts; 29 generated so far ------------------------
+     Generating Edge-Concave Cuts; 30 generated so far ------------------------
+     Generating Edge-Concave Cuts; 30 generated so far ------------------------
+     Generating Edge-Concave Cuts; 31 generated so far ------------------------
+     Generating Edge-Concave Cuts; 31 generated so far ------------------------
+     Generating Edge-Concave Cuts; 31 generated so far ------------------------
+     Generating Edge-Concave Cuts; 31 generated so far ------------------------
+     Generating Edge-Concave Cuts; 31 generated so far ------------------------
+     Generating Edge-Concave Cuts; 31 generated so far ------------------------
+     Generating Edge-Concave Cuts; 31 generated so far ------------------------
+     Generating Edge-Concave Cuts; 31 generated so far ------------------------
+     Generating Edge-Concave Cuts; 31 generated so far ------------------------
+     Generating Edge-Concave Cuts; 31 generated so far ------------------------
+     Generating Edge-Concave Cuts; 32 generated so far ------------------------
+     Generating Edge-Concave Cuts; 32 generated so far ------------------------
+     Generating Edge-Concave Cuts; 32 generated so far ------------------------
+     Generating Edge-Concave Cuts; 32 generated so far ------------------------
+     Generating Edge-Concave Cuts; 32 generated so far ------------------------
+     Generating Edge-Concave Cuts; 32 generated so far ------------------------
+     Generating Edge-Concave Cuts; 32 generated so far ------------------------
+     Generating Edge-Concave Cuts; 32 generated so far ------------------------
+     Generating Edge-Concave Cuts; 32 generated so far ------------------------
+     Generating Edge-Concave Cuts; 32 generated so far ------------------------
+     Generating Edge-Concave Cuts; 32 generated so far ------------------------
+     Generating Edge-Concave Cuts; 32 generated so far ------------------------
+     Generating Edge-Concave Cuts; 32 generated so far ------------------------
+     Generating Edge-Concave Cuts; 32 generated so far ------------------------
+     Generating Edge-Concave Cuts; 32 generated so far ------------------------
+    9272              1               1    +4.191e+07   +3.417e+07   +2.265e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 12 generated so far ------------------------
+     Generating Edge-Concave Cuts; 12 generated so far ------------------------
+     Generating Edge-Concave Cuts; 12 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+   10146              1               1    +4.191e+07   +3.417e+07   +2.265e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+   10933              1               1    +4.190e+07   +3.417e+07   +2.264e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+     Generating Edge-Concave Cuts; 13 generated so far ------------------------
+   11640              1               1    +4.190e+07   +3.417e+07   +2.264e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+   12277              1               1    +4.190e+07   +3.417e+07   +2.264e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 4 generated so far -------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+   12850              1               1    +4.190e+07   +3.417e+07   +2.264e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 7 generated so far -------------------------
+     Generating Edge-Concave Cuts; 9 generated so far -------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Generating Edge-Concave Cuts; 11 generated so far ------------------------
+     Searching for feasible solutions with 2 starting points at tree level 0 --
+   13367              1               1    +4.179e+07   +3.417e+07   +2.231e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+     Generating Edge-Concave Cuts; 6 generated so far -------------------------
+   13831              1               1    +4.179e+07   +3.417e+07   +2.231e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 3 generated so far -------------------------
+     Generating Edge-Concave Cuts; 24 generated so far ------------------------
+     Generating Edge-Concave Cuts; 24 generated so far ------------------------
+     Generating Edge-Concave Cuts; 24 generated so far ------------------------
+     Generating Edge-Concave Cuts; 24 generated so far ------------------------
+     Generating Edge-Concave Cuts; 25 generated so far ------------------------
+     Generating Edge-Concave Cuts; 25 generated so far ------------------------
+     Generating Edge-Concave Cuts; 25 generated so far ------------------------
+     Generating Edge-Concave Cuts; 25 generated so far ------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   14624              1               1    +4.179e+07   +3.417e+07   +2.231e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 17 generated so far ------------------------
+     Generating Edge-Concave Cuts; 17 generated so far ------------------------
+     Generating Edge-Concave Cuts; 17 generated so far ------------------------
+     Generating Edge-Concave Cuts; 17 generated so far ------------------------
+   14964              1               1    +4.179e+07   +3.417e+07   +2.231e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   15542              1               1    +4.179e+07   +3.417e+07   +2.231e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   15791              1               1    +4.179e+07   +3.417e+07   +2.231e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   16211              1               1    +4.179e+07   +3.417e+07   +2.231e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   16551              1               1    +4.179e+07   +3.417e+07   +2.231e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   16697              1               1    +4.179e+07   +3.417e+07   +2.231e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+     Generating Edge-Concave Cuts; 2 generated so far -------------------------
+   16831              1               1    +4.176e+07   +3.417e+07   +2.221e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   17055              1               1    +4.176e+07   +3.417e+07   +2.221e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   17236              1               1    +4.176e+07   +3.417e+07   +2.221e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+     Generating Edge-Concave Cuts; 1 generated so far -------------------------
+   17314              1               1    +4.176e+07   +3.417e+07   +2.221e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   17388              1               1    +4.176e+07   +3.417e+07   +2.221e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   17505              1               1    +4.176e+07   +3.417e+07   +2.221e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   17558              1               1    +4.176e+07   +3.417e+07   +2.221e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   17644              1               1    +4.176e+07   +3.417e+07   +2.221e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   17713              1               1    +4.176e+07   +3.417e+07   +2.221e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   17767              1               1    +4.176e+07   +3.417e+07   +2.221e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   17829              1               1    +4.159e+07   +3.417e+07   +2.173e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   17863              1               1    +4.159e+07   +3.417e+07   +2.173e-01
+     Generating Edge-Concave Cuts; 0 generated so far -------------------------
+   17890              1               1    +4.159e+07   +3.417e+07   +2.173e-01
+   17914              1               1    +4.159e+07   +3.417e+07   +2.173e-01
+   17931              1               1    +4.159e+07   +3.417e+07   +2.173e-01
+   17948              1               1    +4.159e+07   +3.417e+07   +2.173e-01
+   17960              1               1    +4.159e+07   +3.417e+07   +2.173e-01
+   17977              1               1    +4.159e+07   +3.417e+07   +2.173e-01
+   17995              1               1    +4.159e+07   +3.417e+07   +2.173e-01
+
+                                             Reached time limit of 18000 CPU s
+   18003              1               1    +4.210e+07   +3.417e+07   +2.322e-01
+ 
+-------------------------------------------------------------------------------
+Termination Status : Found feasible point; guessed variable bounds
+Best Feasible Point: +3.416797e+07
+Best Possible Point: +4.210107e+07 (+4.159e+07 if ANTIGONE bounds reasonable)
+       Relative Gap: +2.321794e-01
+Algorithm analysis :
+
+                  0 Nodes explored
+                  1 Nodes remaining
+
+                  0 Maximum tree depth
+
+                195 Cutting Planes
+                       195 Edge-Concave
+ 
+            18003.00 Total time (wall s)
+                      0.33 Pre-processing
+                   17893.18 Solving MILP relaxations
+                     12.49 Searching for feasible solutions
+                     94.67 Variable bounds tightening
+                            92.99 OBBT
+                             7.89 FBBT (0.27 EC; 5.29 RLT; 0.19 Factoring)
+                      0.01 Branching
+                             0.01 Reliability branching
+-------------------------------------------------------------------------------
+
+CONOPT 3         45.5.0 8d95ac18 Dec 14, 2023          WEI x86 64bit/MS Window
+
+ 
+ 
+    C O N O P T 3   version 3.17O
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        2.2017746742E-07 (Input point)
+ 
+                   Pre-triangular equations:   332
+                   Post-triangular equations:  136
+                   Definitional equations:     1161
+ 
+      1   0        5.2393983785E-06 (After pre-processing)
+      2   0        1.2149832846E-07 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    34167967.9606
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      3   3        3.4167967960E+07 2.1E+06     2 5.4E-01    2 F  F
+      4   3        3.4167967961E+07 2.1E+06     1 1.0E+00    1 T  T
+      5   3        3.4167967961E+07 8.5E-08     1
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+*** Status: Normal completion
+--- Stop 11/21/24 14:43:43 elapsed 5:00:03.353
