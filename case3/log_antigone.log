@@ -1,0 +1,91 @@
+Processor information: 1 socket(s), 6 core(s), and 12 thread(s) available
+GAMS 45.5.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
+---   24,466 rows  21,469 columns  73,461 non-zeroes
+---   25,338 nl-code  12,882 nl-non-zeroes
+---   168 discrete-columns
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 2.779E-06, 3.500E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 3.000E-05, 2.675E+03] - Zero values observed as well
+--- Matrix    [min, max] : [ 8.190E-08, 5.910E+09] - Zero values observed as well
+--- Executing ANTIGONE (Solvelink=2): elapsed 0:00:00.119
+
+ANTIGONE         45.5.0 8d95ac18 Dec 14, 2023          WEI x86 64bit/MS Window
+ 
+-------------------------------------------------------------------------------
+ANTIGONE: Algorithms for coNTinuous/Integer Global Optimization; Version 1.1
+
+          Ruth Misener and Christodoulos A. Floudas
+
+          Computer-Aided Systems Laboratory (CASL)
+          Department of Chemical & Biological Engineering; Princeton University
+-------------------------------------------------------------------------------
+
+Before Pre-processing:
+        21468 Variables
+               21300 Continuous
+                 168 Binary
+        24466 Equations
+
+After Pre-processing:
+         4469 Variables
+                4301 Continuous
+                 168 Binary
+         5080 Equations
+                2188 Linear
+                2892 Nonconvex nonlinear
+         6420 Nonlinear Terms
+                6420 Bilinear/Quadratic
+         6217 Possible Reformulation Linearization Technique (RLT) equations
+             33 RLT Equations Added Outright to Formulation
+
+Constituent Libraries:
+            CPLEX  Solving relaxations
+            CONOPT Finding feasible points
+            LAPACK Addressing linear systems
+            Boost  Bounding Intervals
+ 
+-------------------------------------------------------------------------------
+Time (s) Nodes explored Nodes remaining Best possible   Best found Relative Gap
+-------------------------------------------------------------------------------
+ 
+     Adding 342 total cutting planes at tree level 0 --------------------------
+     Optimality-based tightening at tree level 0 ------------------------------
+     Optimality-based tightening at tree level 0 ------------------------------
+     Optimality-based tightening at tree level 0 ------------------------------
+WARNING! Could not deterministically infer all bounds; ANTIGONE guessed some
+         bounds. Supply finite variable bounds to guarantee global optimality
+
+     Searching for feasible solutions with 5 starting points at tree level 0 --
+     261              1               1    +1.337e+08           --           --
+     Adding 0 total cutting planes at tree level 0 ----------------------------
+     Solving MILP relaxation at tree level 0 ----------------------------------
+     Current Best Poss: 1.337e+08; Current Best Found: -- ---------------------
+     379              1               1    +1.337e+08           --           --
+     395              1               0    +1.337e+08           --           --
+ 
+-------------------------------------------------------------------------------
+Termination Status : Did not find feasible point; guessed variable bounds
+Best Feasible Point:            -- (no feasible point found)
+Best Possible Point: +1.336808e+08 (+1.337e+08 if ANTIGONE bounds reasonable)
+       Relative Gap:            --
+Algorithm analysis :
+
+                  1 Nodes explored
+                  0 Nodes remaining
+
+                  0 Maximum tree depth
+
+             395.00 Total time (wall s)
+                     13.95 Pre-processing
+                     54.12 Solving MILP relaxations
+                     35.16 Searching for feasible solutions
+                    286.60 Variable bounds tightening
+                           281.59 OBBT
+                            12.83 FBBT (0.10 EC; 6.95 RLT; 0.43 Factoring)
+                      0.60 Branching
+                             0.60 Reliability branching
+-------------------------------------------------------------------------------
+--- Reading solution for model RP
+--- Executing after solve: elapsed 0:06:35.943
+*** Status: Execution error(s)
+--- Stop 12/01/24 11:21:48 elapsed 0:06:35.964
