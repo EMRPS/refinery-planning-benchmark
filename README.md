@@ -1,6 +1,6 @@
 # A production planning benchmark for real-world refinery-petrochemical complexes
 
-This repository contains the sets and parameters required for constructing the benchmark presented in the paper "**A production planning benchmark for real-world refinery-petrochemical complexes**" by C. Wang, C. Fan, Z. Li, Y. Zhong, T. Kang, Z. Liang, M. Yang, F. Qian, X. Dai, and W. Du. Computational results were obtained from global optimization solvers ANTIGONE and BARON implemented in GAMS 45.5.0 on a desktop equipped with an Inter(R) Core(TM) i7-8700 CPU 3.20 GHz and 16 GB of RAM. You can view the full paper here.
+This repository contains the sets and parameters required for constructing the benchmark presented in the paper "**A production planning benchmark for real-world refinery-petrochemical complexes**" by W. Du, C. Wang, C. Fan, Z. Li, Y. Zhong, T. Kang, Z. Liang, M. Yang, F. Qian, and X. Dai. Computational results were obtained from global optimization solvers ANTIGONE and BARON implemented in GAMS 45.5.0 on a desktop equipped with an Inter(R) Core(TM) i7-8700 CPU 3.20 GHz and 16 GB of RAM. You can view the full paper here.
 
 Please read the **Notes** before using these datas.
 
@@ -20,6 +20,7 @@ Please read the **Notes** before using these datas.
 |   ├── all_sets.txt
 |   ├── all_parameters.gdx
 |   ├── all_parameters.txt
+|   ├── case1.gms       # Executable GAMS code in scalar form
 |   ├── log_antigone.log
 |   ├── solution_antigone.gdx
 |   ├── log_baron.log
