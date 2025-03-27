@@ -1,0 +1,111 @@
+Processor information: 1 socket(s), 6 core(s), and 12 thread(s) available
+GAMS 45.5.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
+---   8,156 rows  7,157 columns  24,087 non-zeroes
+---   8,446 nl-code  4,294 nl-non-zeroes
+---   56 discrete-columns
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 2.779E-06, 3.500E+03] - Zero values observed as well
+--- Bound     [min, max] : [ 3.000E-05, 2.675E+03] - Zero values observed as well
+--- Matrix    [min, max] : [ 8.190E-08, 5.910E+09] - Zero values observed as well
+--- Executing ANTIGONE (Solvelink=2): elapsed 0:00:00.461
+
+ANTIGONE         45.5.0 8d95ac18 Dec 14, 2023          WEI x86 64bit/MS Window
+ 
+-------------------------------------------------------------------------------
+ANTIGONE: Algorithms for coNTinuous/Integer Global Optimization; Version 1.1
+
+          Ruth Misener and Christodoulos A. Floudas
+
+          Computer-Aided Systems Laboratory (CASL)
+          Department of Chemical & Biological Engineering; Princeton University
+-------------------------------------------------------------------------------
+
+Before Pre-processing:
+         7156 Variables
+                7100 Continuous
+                  56 Binary
+         8156 Equations
+
+After Pre-processing:
+         1528 Variables
+                1472 Continuous
+                  56 Binary
+         1697 Equations
+                 732 Linear
+                 965 Nonconvex nonlinear
+         2140 Nonlinear Terms
+                2140 Bilinear/Quadratic
+         2071 Possible Reformulation Linearization Technique (RLT) equations
+             11 RLT Equations Added Outright to Formulation
+
+Constituent Libraries:
+            CPLEX  Solving relaxations
+            CONOPT Finding feasible points
+            LAPACK Addressing linear systems
+            Boost  Bounding Intervals
+ 
+-------------------------------------------------------------------------------
+Time (s) Nodes explored Nodes remaining Best possible   Best found Relative Gap
+-------------------------------------------------------------------------------
+ 
+WARNING! Could not deterministically infer all bounds; ANTIGONE guessed some
+         bounds. Supply finite variable bounds to guarantee global optimality
+
+      23              1               1    +7.615e+07           --           --
+      33              1               1    +7.615e+07           --           --
+      38              1               1    +7.615e+07           --           --
+      43              1               1    +7.615e+07           --           --
+      51              1               1    +7.615e+07           --           --
+      56              1               1    +7.615e+07           --           --
+      62              1               1    +7.615e+07           --           --
+      67              1               1    +7.615e+07           --           --
+      72              1               1    +7.615e+07           --           --
+      79              1               1    +7.615e+07           --           --
+      89              1               1    +7.615e+07           --           --
+     100              1               1    +7.615e+07           --           --
+     107              1               1    +7.615e+07           --           --
+     112              1               1    +7.615e+07           --           --
+     117              1               1    +7.615e+07           --           --
+     123              1               1    +7.609e+07           --           --
+     129              1               1    +7.608e+07           --           --
+     136              1               1    +7.608e+07           --           --
+     144              1               1    +7.608e+07           --           --
+     149              1               1    +7.608e+07           --           --
+     154              1               1    +7.608e+07           --           --
+     159              1               1    +7.608e+07           --           --
+     166              1               1    +7.607e+07           --           --
+     171              1               1    +7.607e+07           --           --
+     178              1               1    +7.607e+07           --           --
+     188              1               1    +7.607e+07           --           --
+     195              1               1    +7.607e+07           --           --
+     204              1               1    +7.607e+07           --           --
+     213              1               1    +7.607e+07           --           --
+     220              1               1    +7.607e+07           --           --
+     223              1               0    +7.615e+07           --           --
+ 
+-------------------------------------------------------------------------------
+Termination Status : Did not find feasible point; guessed variable bounds
+Best Feasible Point:            -- (no feasible point found)
+Best Possible Point: +7.615454e+07 (+7.607e+07 if ANTIGONE bounds reasonable)
+       Relative Gap:            --
+Algorithm analysis :
+
+                  1 Nodes explored
+                  0 Nodes remaining
+
+                  0 Maximum tree depth
+
+             223.00 Total time (wall s)
+                      1.44 Pre-processing
+                     96.31 Solving MILP relaxations
+                     29.37 Searching for feasible solutions
+                     94.60 Variable bounds tightening
+                            89.76 OBBT
+                            17.16 FBBT (0.36 EC; 9.95 RLT; 0.48 Factoring)
+                      0.03 Branching
+                             0.03 Reliability branching
+-------------------------------------------------------------------------------
+--- Reading solution for model RP
+--- Executing after solve: elapsed 0:03:45.461
+*** Status: Execution error(s)
+--- Stop 12/02/24 13:50:56 elapsed 0:03:45.467
