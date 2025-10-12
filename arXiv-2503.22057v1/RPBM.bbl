@@ -1,0 +1,131 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{qian2017fundamental}
+F.~Qian, W.~Zhong, W.~Du, Fundamental theories and key technologies for smart and optimal manufacturing in the process industry, Engineering 3~(2) (2017) 154--160.
+
+\bibitem{KETABCHI201985}
+E.~Ketabchi, E.~Mechleri, H.~Arellano-Garcia, Increasing operational efficiency through the integration of an oil refinery and an ethylene production plant, Chemical Engineering Research and Design 152 (2019) 85--94.
+
+\bibitem{li_development_2020}
+F.~Li, M.~Yang, W.~Du, X.~Dai, Development and challenges of planning and scheduling for petroleum and petrochemical production, Frontiers of Engineering Management 7~(3) (2020) 373--383.
+
+\bibitem{bodington_history_1990}
+C.~E. Bodington, T.~E. Baker, A history of mathematical programming in the petroleum industry, Interfaces 20~(4) (1990) 117--127.
+
+\bibitem{NEIRO2004871}
+S.~M. Neiro, J.~M. Pinto, A general modeling framework for the operational planning of petroleum supply chains, Computers \& Chemical Engineering 28~(6) (2004) 871--896.
+
+\bibitem{GAO200867}
+Z.~Gao, L.~Tang, H.~Jin, N.~Xu, An optimization model for the production planning of overall refinery, Chinese Journal of Chemical Engineering 16~(1) (2008) 67--70.
+
+\bibitem{LI2021107361}
+F.~Li, F.~Qian, W.~Du, M.~Yang, J.~Long, V.~Mahalec, Refinery production planning optimization under crude oil quality uncertainty, Computers \& Chemical Engineering 151 (2021) 107361.
+
+\bibitem{zyngier2012uopss}
+D.~Zyngier, J.~D. Kelly, {UOPSS}: a new paradigm for modeling production planning \& scheduling systems, in: Symposium on Computer Aided Process Engineering, Vol.~17, 2012, p.~20.
+
+\bibitem{kelly2017crude}
+J.~D. Kelly, B.~C. Menezes, F.~Engineer, I.~E. Grossmann, Crude-oil blend scheduling optimization of an industrial-sized refinery: a discrete-time benchmark, Foundations of Computer Aided Process Operations (2017).
+
+\bibitem{BRUNAUD2020106617}
+B.~Brunaud, H.~D. Perez, S.~Amaran, S.~Bury, J.~Wassick, I.~E. Grossmann, Batch scheduling with quality-based changeovers, Computers \& Chemical Engineering 132 (2020) 106617.
+
+\bibitem{FRANZOI2024108678}
+R.~E. Franzoi, B.~C. Menezes, J.~D. Kelly, J.~A. Gut, I.~E. Grossmann, Large-scale optimization of nonconvex {MINLP} refinery scheduling, Computers \& Chemical Engineering 186 (2024) 108678.
+
+\bibitem{MORO1998S1039}
+L.~Moro, A.~Zanin, J.~Pinto, A planning model for refinery diesel production, Computers \& Chemical Engineering 22 (1998) S1039--S1042.
+
+\bibitem{Siamizade2019}
+M.~R. Siamizade, Global optimization of refinery-wide production planning with highly nonlinear unit models, Industrial \& Engineering Chemistry Research 58~(24) (2019) 10437--10454.
+
+\bibitem{zhang2001}
+J.~Zhang, X.~X. Zhu, G.~P. Towler, A level-by-level debottlenecking approach in refinery operation, Industrial \& Engineering Chemistry Research 40~(6) (2001) 1528--1540.
+
+\bibitem{li2007novel}
+W.~Li, C.-W. Hui, I.~Karimi, R.~Srinivasan, A novel {CDU} model for refinery planning, Asia-Pacific Journal of Chemical Engineering 2~(4) (2007) 282--293.
+
+\bibitem{lopez2013}
+D.~C. López~C., L.~J. Hoyos, C.~A. Mahecha, H.~Arellano-Garcia, G.~Wozny, Optimization model of crude oil distillation units for optimal crude oil blending and operating conditions, Industrial \& Engineering Chemistry Research 52~(36) (2013) 12993--13005.
+
+\bibitem{li2016data}
+J.~Li, X.~Xiao, F.~Boukouvala, C.~A. Floudas, B.~Zhao, G.~Du, X.~Su, H.~Liu, Data-driven mathematical modeling and global optimization framework for entire petrochemical planning operations, AIChE Journal 62~(9) (2016) 3020--3040.
+
+\bibitem{URIBERODRIGUEZ2020106883}
+A.~Uribe-Rodriguez, P.~M. Castro, G.-G. Gonzalo, B.~Chachuat, Global optimization of large-scale {MIQCQPs} via cluster decomposition: {Application} to short-term planning of an integrated refinery-petrochemical complex, Computers \& Chemical Engineering 140 (2020) 106883.
+
+\bibitem{haverly1978studies}
+C.~A. Haverly, Studies of the behavior of recursion for the pooling problem, Acm sigmap bulletin~(25) (1978) 19--28.
+
+\bibitem{baker1985successive}
+T.~E. Baker, L.~S. Lasdon, Successive linear programming at {Exxon}, Management science 31~(3) (1985) 264--274.
+
+\bibitem{mccormick1976computability}
+G.~P. McCormick, Computability of global solutions to factorable nonconvex programs: {Part I—Convex} underestimating problems, Mathematical programming 10~(1) (1976) 147--175.
+
+\bibitem{quesada1995global}
+I.~Quesada, I.~E. Grossmann, Global optimization of bilinear process networks with multicomponent flows, Computers \& Chemical Engineering 19~(12) (1995) 1219--1242.
+
+\bibitem{castro2016normalized}
+P.~M. Castro, Normalized multiparametric disaggregation: an efficient relaxation for mixed-integer bilinear problems, Journal of Global Optimization 64~(4) (2016) 765--784.
+
+\bibitem{GROSSMANN20122}
+I.~E. Grossmann, Advances in mathematical programming models for enterprise-wide optimization, Computers \& Chemical Engineering 47 (2012) 2--18.
+
+\bibitem{CASTRO2021107459}
+P.~M. Castro, A piecewise relaxation for quadratically constrained problems based on a mixed-radix numeral system, Computers \& Chemical Engineering 153 (2021) 107459.
+
+\bibitem{chen2022variable}
+Y.~Chen, C.~T. Maravelias, Variable bound tightening and valid constraints for multiperiod blending, INFORMS Journal on Computing 34~(4) (2022) 2073--2090.
+
+\bibitem{URIBERODRIGUEZ2023108229}
+A.~Uribe-Rodríguez, P.~M. Castro, G.~Guillén-Gosálbez, B.~Chachuat, Assessment of {Lagrangean} decomposition for short-term planning of integrated refinery-petrochemical operations, Computers \& Chemical Engineering 174 (2023) 108229.
+
+\bibitem{YANG2023108121}
+Y.~Yang, R.~He, G.~Yu, W.~Du, M.~Yang, W.~Du, Efficient rolling horizon approach to a crude oil scheduling problem for marine-access refineries, Computers \& Chemical Engineering 170 (2023) 108121.
+
+\bibitem{PISTIKOPOULOS2021107252}
+E.~N. Pistikopoulos, A.~Barbosa-Povoa, J.~H. Lee, R.~Misener, A.~Mitsos, G.~V. Reklaitis, V.~Venkatasubramanian, F.~You, R.~Gani, Process systems engineering – the generation next?, Computers \& Chemical Engineering 147 (2021) 107252.
+
+\bibitem{Williams1960}
+T.~J. Williams, R.~E. Otto, A generalized chemical processing model for the investigation of computer control, Transactions of the American Institute of Electrical Engineers, Part I: Communication and Electronics 79~(5) (1960) 458--473.
+
+\bibitem{DOWNS1993245}
+J.~Downs, E.~Vogel, A plant-wide industrial process control problem, Computers \& Chemical Engineering 17~(3) (1993) 245--255.
+
+\bibitem{Bussieck2003114}
+M.~R. Bussieck, A.~S. Drud, A.~Meeraus, {MINLPLib} - {A} collection of test models for mixed-integer nonlinear programming, INFORMS Journal on Computing 15~(1) (2003) 114 – 119.
+
+\bibitem{miplib2017}
+A.~Gleixner, G.~Hendel, G.~Gamrath, T.~Achterberg, M.~Bastubbe, T.~Berthold, P.~M. Christophel, K.~Jarck, T.~Koch, J.~Linderoth, M.~L\"ubbecke, H.~D. Mittelmann, D.~Ozyurt, T.~K. Ralphs, D.~Salvagnin, Y.~Shinano, {MIPLIB 2017: Data-Driven Compilation of the 6th Mixed-Integer Programming Library}, Mathematical Programming Computation (2021).
+
+\bibitem{TELES20093736}
+J.~P. Teles, P.~M. Castro, A.~Q. Novais, {MILP}-based initialization strategies for the optimal design of water-using networks, Chemical Engineering Science 64~(17) (2009) 3736--3752.
+
+\bibitem{alfaki2013strong}
+M.~Alfaki, D.~Haugland, Strong formulations for the pooling problem, Journal of Global Optimization 56 (2013) 897--916.
+
+\bibitem{castillo2017global}
+P.~Castillo~Castillo, P.~M. Castro, V.~Mahalec, Global optimization algorithm for large-scale refinery planning models with bilinear terms, Industrial \& Engineering Chemistry Research 56~(2) (2017) 530--548.
+
+\bibitem{zhang2023enterprise}
+L.~Zhang, H.~Hu, Z.~Wang, Z.~Yuan, B.~Chen, Enterprise-wide optimization of integrated planning and scheduling for refinery-petrochemical complex with heuristic algorithm, Frontiers of Chemical Science and Engineering 17~(10) (2023) 1516--1532.
+
+\bibitem{wang2024refinery}
+C.~Wang, X.~Peng, L.~Zhao, W.~Zhong, Refinery planning optimization based on smart predict-then-optimize method under exogenous price uncertainty, Computers \& Chemical Engineering (2024) 108765.
+
+\bibitem{khor2017petroleum}
+C.~S. Khor, D.~Varvarezos, Petroleum refinery optimization, Optimization and engineering 18~(4) (2017) 943--989.
+
+\bibitem{misener2014antigone}
+R.~Misener, C.~A. Floudas, Antigone: algorithms for continuous/integer global optimization of nonlinear equations, Journal of Global Optimization 59~(2) (2014) 503--526.
+
+\bibitem{DEMIRHAN2020107007}
+C.~D. Demirhan, F.~Boukouvala, K.~Kim, H.~Song, W.~W. Tso, C.~A. Floudas, E.~N. Pistikopoulos, An integrated data-driven modeling \& global optimization approach for multi-period nonlinear production planning problems, Computers \& Chemical Engineering 141 (2020) 107007.
+
+\end{thebibliography}

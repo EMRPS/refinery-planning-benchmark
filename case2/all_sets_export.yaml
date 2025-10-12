@@ -1,0 +1,149 @@
+- GDXReader:
+    file: D:\Study\1smallPaper\refinery-planning-benchmark\case2\all_sets.gdx
+    symbols: 
+      - name: T
+      - name: S
+      - name: U
+      - name: M
+      - name: Q
+      - name: C
+      - name: S_P
+      - name: S_M
+      - name: UCDU
+      - name: UPF
+      - name: UPD
+      - name: UMIX
+      - name: USPL
+      - name: UBLD
+      - name: IU
+      - name: OU
+      - name: IM
+      - name: OM
+      - name: SC
+      - name: SPG
+      - name: Qv
+      - name: Qw
+      - name: Qp
+      - name: SQ
+      - name: FIX
+      - name: QT
+      - name: VMQ
+      - name: DBSQ
+      - name: CAPIN
+      - name: CAPOUT
+      - name: CAPS
+      - name: CDUMQ
+      - name: CRU
+      - name: RB
+- ExcelWriter:
+    file: D:\Study\1smallPaper\refinery-planning-benchmark\case2\all_sets_export.xlsx
+    valueSubstitutions: {
+      EPS: EPS,
+      INF: INF,
+      -INF: -INF,
+      UNDEF: UNDEF,
+      NA: NA
+    }
+    symbols:
+      - name: T
+        range: T!A1
+        columnDimension: 0
+      - name: S
+        range: S!A1
+        columnDimension: 0
+      - name: U
+        range: U!A1
+        columnDimension: 0
+      - name: M
+        range: M!A1
+        columnDimension: 0
+      - name: Q
+        range: Q!A1
+        columnDimension: 0
+      - name: C
+        range: C!A1
+        columnDimension: 0
+      - name: S_P
+        range: S_P!A1
+        columnDimension: 0
+      - name: S_M
+        range: S_M!A1
+        columnDimension: 0
+      - name: UCDU
+        range: UCDU!A1
+        columnDimension: 0
+      - name: UPF
+        range: UPF!A1
+        columnDimension: 0
+      - name: UPD
+        range: UPD!A1
+        columnDimension: 0
+      - name: UMIX
+        range: UMIX!A1
+        columnDimension: 0
+      - name: USPL
+        range: USPL!A1
+        columnDimension: 0
+      - name: UBLD
+        range: UBLD!A1
+        columnDimension: 0
+      - name: IU
+        range: IU!A1
+        columnDimension: 0
+      - name: OU
+        range: OU!A1
+        columnDimension: 0
+      - name: IM
+        range: IM!A1
+        columnDimension: 0
+      - name: OM
+        range: OM!A1
+        columnDimension: 0
+      - name: SC
+        range: SC!A1
+        columnDimension: 0
+      - name: SPG
+        range: SPG!A1
+        columnDimension: 0
+      - name: Qv
+        range: Qv!A1
+        columnDimension: 0
+      - name: Qw
+        range: Qw!A1
+        columnDimension: 0
+      - name: Qp
+        range: Qp!A1
+        columnDimension: 0
+      - name: SQ
+        range: SQ!A1
+        columnDimension: 0
+      - name: FIX
+        range: FIX!A1
+        columnDimension: 0
+      - name: QT
+        range: QT!A1
+        columnDimension: 0
+      - name: VMQ
+        range: VMQ!A1
+        columnDimension: 0
+      - name: DBSQ
+        range: DBSQ!A1
+        columnDimension: 0
+      - name: CAPIN
+        range: CAPIN!A1
+        columnDimension: 0
+      - name: CAPOUT
+        range: CAPOUT!A1
+        columnDimension: 0
+      - name: CAPS
+        range: CAPS!A1
+        columnDimension: 0
+      - name: CDUMQ
+        range: CDUMQ!A1
+        columnDimension: 0
+      - name: CRU
+        range: CRU!A1
+        columnDimension: 0
+      - name: RB
+        range: RB!A1
+        columnDimension: 0

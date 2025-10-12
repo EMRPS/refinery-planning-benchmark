@@ -1,0 +1,137 @@
+- GDXReader:
+    file: D:\Study\1smallPaper\refinery-planning-benchmark\case2\all_parameters.gdx
+    symbols: 
+      - name: c_P
+      - name: c_M
+      - name: ci_P
+      - name: ci_M
+      - name: FVMin
+      - name: FVMax
+      - name: FQ0
+      - name: FQMin
+      - name: FQMax
+      - name: FQcut
+      - name: y
+      - name: phi
+      - name: gamma
+      - name: B
+      - name: delta
+      - name: Del
+      - name: FVCMin
+      - name: FVCMax
+      - name: alpha
+      - name: beta
+      - name: w
+      - name: FQBMin
+      - name: FQBMax
+      - name: FQVMin
+      - name: FQVMax
+      - name: LMin
+      - name: LMax
+      - name: L0
+      - name: MFQMin
+      - name: MFQMax
+      - name: FQcrd
+- ExcelWriter:
+    file: D:\Study\1smallPaper\refinery-planning-benchmark\case2\all_parameters_export.xlsx
+    valueSubstitutions: {
+      EPS: EPS,
+      INF: INF,
+      -INF: -INF,
+      UNDEF: UNDEF,
+      NA: NA
+    }
+    symbols:
+      - name: c_P
+        range: c_P!A1
+        columnDimension: 0
+      - name: c_M
+        range: c_M!A1
+        columnDimension: 0
+      - name: ci_P
+        range: ci_P!A1
+        columnDimension: 0
+      - name: ci_M
+        range: ci_M!A1
+        columnDimension: 0
+      - name: FVMin
+        range: FVMin!A1
+        columnDimension: 0
+      - name: FVMax
+        range: FVMax!A1
+        columnDimension: 0
+      - name: FQ0
+        range: FQ0!A1
+        columnDimension: 0
+      - name: FQMin
+        range: FQMin!A1
+        columnDimension: 0
+      - name: FQMax
+        range: FQMax!A1
+        columnDimension: 0
+      - name: FQcut
+        range: FQcut!A1
+        columnDimension: 0
+      - name: y
+        range: y!A1
+        columnDimension: 0
+      - name: phi
+        range: phi!A1
+        columnDimension: 0
+      - name: gamma
+        range: gamma!A1
+        columnDimension: 0
+      - name: B
+        range: B!A1
+        columnDimension: 0
+      - name: delta
+        range: delta!A1
+        columnDimension: 0
+      - name: Del
+        range: Del!A1
+        columnDimension: 0
+      - name: FVCMin
+        range: FVCMin!A1
+        columnDimension: 0
+      - name: FVCMax
+        range: FVCMax!A1
+        columnDimension: 0
+      - name: alpha
+        range: alpha!A1
+        columnDimension: 0
+      - name: beta
+        range: beta!A1
+        columnDimension: 0
+      - name: w
+        range: w!A1
+        columnDimension: 0
+      - name: FQBMin
+        range: FQBMin!A1
+        columnDimension: 0
+      - name: FQBMax
+        range: FQBMax!A1
+        columnDimension: 0
+      - name: FQVMin
+        range: FQVMin!A1
+        columnDimension: 0
+      - name: FQVMax
+        range: FQVMax!A1
+        columnDimension: 0
+      - name: LMin
+        range: LMin!A1
+        columnDimension: 0
+      - name: LMax
+        range: LMax!A1
+        columnDimension: 0
+      - name: L0
+        range: L0!A1
+        columnDimension: 0
+      - name: MFQMin
+        range: MFQMin!A1
+        columnDimension: 0
+      - name: MFQMax
+        range: MFQMax!A1
+        columnDimension: 0
+      - name: FQcrd
+        range: FQcrd!A1
+        columnDimension: 0
