@@ -197,7 +197,7 @@ python test_basic.py
 ### 构建模型（不求解）
 
 ```python
-from pyomo_models.refinery_model import RefineryPlanningModel
+from pyomo_models.model_builder import RefineryPlanningModel
 
 model = RefineryPlanningModel('case1')
 model.build_model()

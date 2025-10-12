@@ -15,19 +15,33 @@ Please read the **Notes** before using these datas.
 
 ```text
 .
-├── README.md           # Repository overview and structure
-├── case1               # Folder containing the sets, parameters, and computational results for case 1
-|   ├── all_sets.gdx
-|   ├── all_sets.txt
-|   ├── all_parameters.gdx
-|   ├── all_parameters.txt
-|   ├── case1.gms       # Executable GAMS code in scalar form
-|   ├── log_antigone.log
-|   ├── solution_antigone.gdx
-|   ├── log_baron.log
-|   └── solution_baron.gdx
-├── case2               # Folder containing the sets, parameters, and computational results for case 2
-|   └── ... 
-└── case3               # Folder containing the sets, parameters, and computational results for case 3
-    └── ... 
+├── README.md              # Repository overview and structure
+├── README_PYOMO.md        # Pyomo implementation documentation
+├── data/                  # Data folder containing all case files
+│   ├── case1/             # Case 1: NLP problem (2 CDU, 25 units, 24 products)
+│   │   ├── all_sets.gdx
+│   │   ├── all_sets.txt
+│   │   ├── all_sets_export.xlsx
+│   │   ├── all_parameters.gdx
+│   │   ├── all_parameters.txt
+│   │   ├── all_parameters_export.xlsx
+│   │   ├── case1.gms       # Executable GAMS code in scalar form
+│   │   ├── log_antigone.log
+│   │   ├── solution_antigone.gdx
+│   │   ├── log_baron.log
+│   │   └── solution_baron.gdx
+│   ├── case2/             # Case 2: MINLP with inventory (3 CDU, 51 units, 44 products)
+│   │   └── ... 
+│   └── case3/             # Case 3: Multi-period MINLP (3 periods)
+│       └── ... 
+├── pyomo_models/          # Pyomo implementation (modular structure)
+│   ├── data_reader.py           # Excel data reader
+│   ├── model_sets_params_vars.py # Sets, parameters, and variables definitions
+│   ├── model_constraints.py     # Constraint definitions with LaTeX formulas
+│   ├── model_objective.py       # Objective function definition
+│   ├── model_builder.py         # Main model builder and solver interface
+│   └── __init__.py
+├── test_basic.py          # Basic functionality tests
+├── example_usage.py       # Usage examples
+└── solve_refinery.py      # Command-line solver script
 ```

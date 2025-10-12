@@ -6,7 +6,7 @@ import sys
 
 sys.path.insert(0, ".")
 
-from pyomo_models.refinery_model import RefineryPlanningModel
+from pyomo_models.model_builder import RefineryPlanningModel
 import pyomo.environ as pyo
 
 

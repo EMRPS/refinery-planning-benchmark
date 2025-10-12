@@ -81,7 +81,7 @@ python solve_refinery.py 3 --solver scip --time-limit 18000 --output case3_resul
 ## 5. 在 Python 中使用
 
 ```python
-from pyomo_models.refinery_model import RefineryPlanningModel
+from pyomo_models.model_builder import RefineryPlanningModel
 
 # 创建模型
 model = RefineryPlanningModel('case1')
