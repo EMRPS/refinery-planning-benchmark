@@ -12,7 +12,7 @@ import argparse
 # 添加路径
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from pyomo_models.refinery_model import RefineryPlanningModel
+from pyomo_models.model_builder import RefineryPlanningModel
 import pyomo.environ as pyo
 
 

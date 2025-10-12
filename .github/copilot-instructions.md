@@ -10,15 +10,19 @@
 ### 目录结构
 
 ```
-case1/, case2/, case3/           # 三个案例的数据集
-├── all_sets.txt/.gdx/.xlsx      # 集合：S(流), U(单元), Q(性质), 关系集合
-├── all_parameters.txt/.gdx/.xlsx # 参数：收率、价格、容量、性质界限
-├── case*.gms                     # GAMS 模型（自动生成，勿手编）
-└── solution_*.gdx                # BARON/ANTIGONE 参考解
+data/                            # 所有案例数据（已移动到此文件夹）
+├── case1/, case2/, case3/       # 三个案例的数据集
+    ├── all_sets.txt/.gdx/.xlsx      # 集合：S(流), U(单元), Q(性质), 关系集合
+    ├── all_parameters.txt/.gdx/.xlsx # 参数：收率、价格、容量、性质界限
+    ├── case*.gms                     # GAMS 模型（自动生成，勿手编）
+    └── solution_*.gdx                # BARON/ANTIGONE 参考解
 
-pyomo_models/
+pyomo_models/                    # Pyomo 模型实现（模块化结构）
 ├── data_reader.py                # Excel → Python 数据加载器
-├── refinery_model.py             # 完整 MINLP Pyomo 模型（1068行，对应论文公式）
+├── model_sets_params_vars.py     # 集合、参数、变量定义（含中文注释）
+├── model_constraints.py          # 约束定义（含 LaTeX 公式和作用说明）
+├── model_objective.py            # 目标函数定义
+├── model_builder.py              # 主模型构建器和求解器接口
 └── __init__.py
 
 arXiv-2503.22057v1/RPBM.tex       # 论文源码：案例定义、命名约定、基准求解结果
@@ -40,10 +44,10 @@ arXiv-2503.22057v1/RPBM.tex       # 论文源码：案例定义、命名约定�
 
 ```bash
 # 求解并验证 BARON 基准
-gams case1/case1.gms lo=3 solver=baron
+gams data/case1/case1.gms lo=3 solver=baron
 
 # 检查结果（利润在变量列表末尾，如 x3573）
-gdxdump case1/solution_baron.gdx
+gdxdump data/case1/solution_baron.gdx
 ```
 
 - **数据编辑**：修改 `all_sets.txt` / `all_parameters.txt` → 用 GAMS 工具重新生成 `.gdx`
@@ -64,7 +68,7 @@ python test_basic.py  # 检查 34 个集合、30+ 参数能否正确读取
 
 **构建模型不求解**（查看变量/约束统计）：
 ```python
-from pyomo_models.refinery_model import RefineryPlanningModel
+from pyomo_models.model_builder import RefineryPlanningModel
 model = RefineryPlanningModel('case1')
 model.build_model()
 model.print_summary()  # 显示变量数、约束数、集合大小
@@ -86,7 +90,7 @@ results = model.solve(solver_name='scip', time_limit=18000)
 
 ### 数据读取器 (`data_reader.py`)
 
-- **输入**：`case*/all_sets_export.xlsx` 和 `all_parameters_export.xlsx`
+- **输入**：`data/case*/all_sets_export.xlsx` 和 `all_parameters_export.xlsx`
 - **集合类型**：
   - 单列集合 → Python `list`（如 `S`, `U`, `Q`）
   - 多列集合 → `list[tuple]`（如 `IU:(u,s)`, `IM:(u,m,s)`, `SQ:(s,q)`）
@@ -185,7 +189,7 @@ print(f"FVMax 上界: {len(params.get('FVMax', {}))} 项")
 
 **添加新案例**：
 
-1. 复制 `case1/` → `case4/`
+1. 复制 `data/case1/` → `data/case4/`
 2. 修改 `all_sets.txt` / `all_parameters.txt`（调整单元数、周期数）
 3. 重新生成 `.gdx` 和 Excel
 4. 更新 `README.md` 表格和 `RPBM.tex` §Case Studies

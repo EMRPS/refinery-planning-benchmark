@@ -15,8 +15,13 @@ class RefineryDataReader:
         初始化数据读取器
 
         Args:
-            case_folder: 案例文件夹路径 (如 'case1', 'case2', 'case3')
+            case_folder: 案例文件夹路径 (如 'case1', 'case2', 'case3' 或 'data/case1')
         """
+        # 如果路径不以 data/ 开头且不是绝对路径，则添加 data/ 前缀
+        if not case_folder.startswith('data/') and not os.path.isabs(case_folder):
+            if os.path.exists(os.path.join('data', case_folder)):
+                case_folder = os.path.join('data', case_folder)
+        
         self.case_folder = case_folder
         self.sets = {}
         self.parameters = {}

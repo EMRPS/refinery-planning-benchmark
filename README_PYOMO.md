@@ -21,6 +21,26 @@
   - 21469个变量（168个二元变量），24466个约束
   - 包含库存管理
 
+## 模块化结构
+
+Pyomo 模型采用模块化设计，便于理解和维护：
+
+```
+pyomo_models/
+├── data_reader.py              # 数据读取模块：从 Excel 文件读取集合和参数
+├── model_sets_params_vars.py   # 集合、参数和变量定义（含中文注释）
+├── model_constraints.py        # 约束定义（含 LaTeX 公式和作用说明）
+├── model_objective.py          # 目标函数定义
+├── model_builder.py            # 主模型构建器和求解器接口
+└── __init__.py                 # 包初始化文件
+```
+
+**特点**：
+
+- 所有集合、参数、变量都有详细的中文注释说明其含义和单位
+- 所有约束都包含 LaTeX 数学公式和作用说明
+- 代码结构清晰，便于学习和二次开发
+
 ## 安装依赖
 
 ```bash
@@ -32,10 +52,21 @@ pip install pyomo pandas openpyxl pyscipopt
 ### 1. 构建模型（不求解）
 
 ```python
-from pyomo_models.refinery_model import RefineryPlanningModel
+from pyomo_models import create_case_model
 
-# 创建 Case 1 模型
-model = RefineryPlanningModel('case1')
+# 创建 Case 1 模型（便捷方式）
+model = create_case_model(1)
+model.build_model()
+model.print_summary()
+```
+
+或者使用完整类名：
+
+```python
+from pyomo_models import RefineryPlanningModel
+
+# 创建模型
+model = RefineryPlanningModel('case1')  # 或 'data/case1'
 model.build_model()
 model.print_summary()
 ```
@@ -56,19 +87,21 @@ python solve_refinery.py 3 --solver scip --time-limit 18000 --output case3_resul
 ### 3. 在 Python 脚本中求解
 
 ```python
-from pyomo_models.refinery_model import RefineryPlanningModel
+from pyomo_models import create_case_model
+import pyomo.environ as pyo
 
 # 创建并构建模型
-model = RefineryPlanningModel('case1')
+model = create_case_model(1)
 model.build_model()
 
 # 使用 SCIP 求解器求解
 results = model.solve(solver_name='scip', time_limit=3600)
 
 # 查看结果
-if results.solver.termination_condition == 'optimal':
-    import pyomo.environ as pyo
-    print(f"最优利润: {pyo.value(model.model.profit)}")
+if results.solver.termination_condition == pyo.TerminationCondition.optimal:
+    print(f"最优利润: ${pyo.value(model.model.profit):,.2f}")
+```
+
 ```
 
 ## 模型特点
@@ -172,13 +205,15 @@ if results.solver.termination_condition == 'optimal':
 ## 代码结构
 
 ```
+
 pyomo_models/
-├── __init__.py           # 包初始化
+├── **init**.py           # 包初始化
 ├── data_reader.py        # 数据读取模块
 └── refinery_model.py     # Pyomo 模型实现
 
 solve_refinery.py         # 求解脚本
 README_PYOMO.md           # 本文档
+
 ```
 
 ## 主要类
@@ -205,7 +240,7 @@ product_prices = reader.get_parameter('c_P')
 构建和求解 Pyomo 模型。
 
 ```python
-from pyomo_models.refinery_model import RefineryPlanningModel
+from pyomo_models.model_builder import RefineryPlanningModel
 
 model = RefineryPlanningModel('case1')
 model.build_model()         # 构建模型
