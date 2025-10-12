@@ -125,6 +125,7 @@ if results.solver.termination_condition == 'optimal':
 ### 非线性项
 
 模型包含以下非线性项：
+
 - 双线性项：流量×性质（调合、混合）
 - 双线性项：收率×流量（Delta-base 模型）
 - 混合逻辑：库存波动二元变量（Case 2/3）
@@ -132,6 +133,7 @@ if results.solver.termination_condition == 'optimal':
 ## 数据文件
 
 模型从以下文件读取数据：
+
 - `case*/all_sets_export.xlsx`: 集合定义
 - `case*/all_parameters_export.xlsx`: 参数值
 - `case*/all_sets.txt`: 集合描述（可选，用于理解）
@@ -140,10 +142,12 @@ if results.solver.termination_condition == 'optimal':
 ## 求解器
 
 推荐使用 SCIP 求解器（开源全局优化求解器）：
+
 - SCIP 8.0 或更高版本
 - 通过 pyscipopt 接口调用
 
 其他支持的求解器：
+
 - IPOPT（局部优化，适用于 NLP 问题如 Case 1）
 - BARON（商业全局优化求解器）
 - Gurobi（需要处理非线性约束）
@@ -158,7 +162,8 @@ if results.solver.termination_condition == 'optimal':
 | 2    | 7,157  | 8,156  | 67,303,190  | N/A (不可行)   |
 | 3    | 21,469 | 24,466 | 125,250,466 | N/A (不可行)   |
 
-**注意**: 
+**注意**:
+
 - 这些是大规模非凸 MINLP 问题
 - 求解时间可能很长（数小时到数天）
 - 不保证找到全局最优解
@@ -179,6 +184,7 @@ README_PYOMO.md           # 本文档
 ## 主要类
 
 ### RefineryDataReader
+
 从 Excel 文件读取集合和参数数据。
 
 ```python
@@ -195,6 +201,7 @@ product_prices = reader.get_parameter('c_P')
 ```
 
 ### RefineryPlanningModel
+
 构建和求解 Pyomo 模型。
 
 ```python
@@ -208,8 +215,8 @@ results = model.solve()     # 求解模型
 
 ## 参考文献
 
-W. Du, C. Wang, C. Fan, Z. Li, Y. Zhong, T. Kang, Z. Liang, M. Yang, F. Qian, and X. Dai. 
-"A production planning benchmark for real-world refinery-petrochemical complexes." 
+W. Du, C. Wang, C. Fan, Z. Li, Y. Zhong, T. Kang, Z. Liang, M. Yang, F. Qian, and X. Dai.
+"A production planning benchmark for real-world refinery-petrochemical complexes."
 arXiv preprint arXiv:2503.22057, 2025.
 
 ## 许可证
