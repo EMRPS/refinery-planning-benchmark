@@ -5,14 +5,15 @@ This repository contains the sets and parameters required for constructing the b
 Please read the **Notes** before using these datas.
 
 ## Notes
+
 - Please cite as "Wenli Du, Chuan Wang, Chen Fan, Zhi Li, Yeke Zhong, Tianao Kang, Ziting Liang, Minglei Yang, Feng Qian, Xin Dai. A production planning benchmark for real-world refinery-petrochemical complexes. _arXiv preprint arXiv:2503.22057_, 2025."
 - For these following upper bound parameters, the absence of an entry in the provided list for a specific set of indice indicates that **no** upper bound constraint exists for the corresponding combination of indice: **FQMax, FVMax, FQVMax, FQBMax**.  
-  e.g. If no entry for FQMax(s1,SPG) is found in the parameter list, this implies that no upper bound constraint is applied to the specific gravity of stream s1. (*Note that certain modeling platforms, such as GAMS, may assign a value of zero to FQMax(s1,SPG) in ths case.*)
+  e.g. If no entry for FQMax(s1,SPG) is found in the parameter list, this implies that no upper bound constraint is applied to the specific gravity of stream s1. (_Note that certain modeling platforms, such as GAMS, may assign a value of zero to FQMax(s1,SPG) in ths case._)
 - As the global optimum cannot be guaranteed for any instance, variations in computational performance and final solutions may arise due to differences in solver versions and computational platforms.
 
 ## Repository structure
 
-```
+```text
 .
 ├── README.md           # Repository overview and structure
 ├── case1               # Folder containing the sets, parameters, and computational results for case 1

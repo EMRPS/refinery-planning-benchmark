@@ -171,7 +171,7 @@ if results.solver.termination_condition == 'optimal':
 
 ## 代码结构
 
-```
+```text
 pyomo_models/
 ├── __init__.py           # 包初始化
 ├── data_reader.py        # 数据读取模块
